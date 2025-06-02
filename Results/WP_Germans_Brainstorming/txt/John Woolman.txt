@@ -1,0 +1,43 @@
+Synthetic Control Analysis for John Woolman
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+                Hobbes 0.434013
+ William Graham Sumner 0.379961
+    Frederick Douglass 0.088877
+           Oscar Wilde 0.043034
+         James Madison 0.026980
+               Malthus 0.002786
+         Lujo Brentano 0.002534
+        Wollstonecraft 0.001916
+     Ferdinand Tönnies 0.001841
+             de Gouges 0.001647
+       Herbert Spencer 0.001081
+       Auberon Herbert 0.001062
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1774.000  1773.565    1594.503
+Socialist                         0.000     0.049       0.138
+Political                         1.000     0.995       0.469
+YearofTranslationtoEnglish     1774.000  1775.696    1829.697
+wrote_English                     1.000     0.989       0.366
+wrote_French                      0.000     0.003       0.097
+wrote_Greek                       0.000     0.001       0.076
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.007       0.372
+special.cite_English.1914.1916    0.066     0.062       0.477
+special.cite_English.1908.1910    0.060     0.066       0.643
+special.cite_English.1902.1904    0.062     0.063       0.709
+special.cite_English.1896.1898    0.070     0.068       0.740
+special.cite_English.1890.1892    0.065     0.066       0.823
+special.cite_English.1884.1886    0.067     0.063       0.780
+special.cite_English.1878.1880    0.035     0.044       0.823
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.875704e-08
+Post (1917-1932): 3.861268e-08
+Post/Pre Ratio: 2.05857 

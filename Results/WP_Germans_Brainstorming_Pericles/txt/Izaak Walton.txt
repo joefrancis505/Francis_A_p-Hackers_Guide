@@ -1,0 +1,39 @@
+Synthetic Control Analysis for Izaak Walton
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+   Thomas Browne 0.510611
+          Hobbes 0.190967
+ Otto Pfleiderer 0.171681
+     John Bunyan 0.062642
+          Kempis 0.021745
+    Robert Burns 0.018941
+           Aesop 0.010379
+ Robert Browning 0.010378
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1653.000  1665.196    1581.644
+Socialist                         0.000     0.000       0.137
+Political                         0.000     0.191       0.479
+YearofTranslationtoEnglish     1653.000  1689.235    1829.144
+wrote_English                     1.000     0.965       0.363
+wrote_French                      0.000     0.000       0.096
+wrote_Greek                       0.000     0.010       0.082
+wrote_Latin                       0.000     0.022       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.002       0.370
+special.cite_English.1914.1916    0.096     0.118       0.480
+special.cite_English.1908.1910    0.206     0.212       0.649
+special.cite_English.1902.1904    0.234     0.236       0.714
+special.cite_English.1896.1898    0.250     0.239       0.745
+special.cite_English.1890.1892    0.253     0.251       0.833
+special.cite_English.1884.1886    0.262     0.262       0.783
+special.cite_English.1878.1880    0.228     0.244       0.829
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.293408e-08
+Post (1917-1932): 3.663565e-07
+Post/Pre Ratio: 8.532999 

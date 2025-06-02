@@ -1,0 +1,42 @@
+Synthetic Control Analysis for Rilke
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                   Name   Weight
+          Hermann Cohen 0.617971
+         Ludwig Büchner 0.340823
+               Durkheim 0.009864
+        Theodor Fontane 0.003192
+            Carl Stumpf 0.002511
+ Barthold Georg Niebuhr 0.001932
+         E T A Hoffmann 0.001685
+          Eduard Zeller 0.001517
+      Ferdinand Tönnies 0.001315
+       Eduard Bernstein 0.001268
+       Ludwig Feuerbach 0.001209
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1910.000  1894.037    1590.585
+Socialist                         0.000     0.004       0.141
+Political                         0.000     0.009       0.472
+YearofTranslationtoEnglish     1930.000  1932.257    1828.599
+wrote_English                     0.000     0.003       0.366
+wrote_French                      0.000     0.011       0.099
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.986       0.373
+special.cite_English.1914.1916    0.013     0.010       0.485
+special.cite_English.1908.1910    0.002     0.005       0.654
+special.cite_English.1902.1904    0.001     0.006       0.721
+special.cite_English.1896.1898    0.001     0.005       0.751
+special.cite_English.1890.1892    0.006     0.006       0.838
+special.cite_English.1884.1886    0.000     0.004       0.793
+special.cite_English.1878.1880    0.001     0.004       0.839
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.100236e-09
+Post (1917-1932): 5.441464e-08
+Post/Pre Ratio: 13.2711 

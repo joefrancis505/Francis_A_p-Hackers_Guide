@@ -1,0 +1,44 @@
+Synthetic Control Analysis for Windelband
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                   Name   Weight
+                  Külpe 0.461649
+                 Simmel 0.217400
+             Ebbinghaus 0.140880
+     Friedrich Schiller 0.126162
+              Nietzsche 0.010793
+                Herbart 0.005339
+         Franz Brentano 0.005017
+            Thomas Mann 0.003199
+ Barthold Georg Niebuhr 0.002880
+                  Rilke 0.002322
+                  Wundt 0.001615
+              Schmoller 0.001298
+       Ludwig Feuerbach 0.001087
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1893.000  1877.005    1580.000
+Socialist                         0.000     0.003       0.137
+Political                         0.000     0.010       0.479
+YearofTranslationtoEnglish     1901.000  1903.187    1827.445
+wrote_English                     0.000     0.004       0.370
+wrote_French                      0.000     0.002       0.096
+wrote_Greek                       0.000     0.001       0.082
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.992       0.363
+special.cite_English.1914.1916    0.067     0.069       0.481
+special.cite_English.1908.1910    0.066     0.065       0.650
+special.cite_English.1902.1904    0.058     0.049       0.715
+special.cite_English.1896.1898    0.049     0.051       0.747
+special.cite_English.1890.1892    0.023     0.025       0.834
+special.cite_English.1884.1886    0.009     0.017       0.785
+special.cite_English.1878.1880    0.013     0.011       0.831
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.989923e-08
+Post (1917-1932): 2.306843e-08
+Post/Pre Ratio: 1.159263 

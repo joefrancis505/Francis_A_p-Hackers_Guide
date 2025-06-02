@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Epictetus
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+       Aeschylus 0.529985
+ Marcus Aurelius 0.316277
+     Dostoyevsky 0.107434
+     Carl Stumpf 0.036767
+        Durkheim 0.007289
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication               135.000   100.735    1573.154
+Socialist                         0.000     0.000       0.103
+Political                         0.000     0.001       0.400
+YearofTranslationtoEnglish     1750.000  1693.451    1800.697
+wrote_English                     0.000     0.001       0.395
+wrote_French                      0.000     0.008       0.133
+wrote_Greek                       1.000     0.846       0.072
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.037       0.287
+special.cite_English.1914.1916    0.284     0.354       0.565
+special.cite_English.1908.1910    0.391     0.546       0.748
+special.cite_English.1902.1904    0.432     0.507       0.815
+special.cite_English.1896.1898    0.408     0.516       0.864
+special.cite_English.1890.1892    0.691     0.485       0.943
+special.cite_English.1884.1886    0.382     0.465       0.888
+special.cite_English.1878.1880    0.406     0.439       0.945
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.397136e-07
+Post (1917-1932): 2.036613e-07
+Post/Pre Ratio: 1.457706 

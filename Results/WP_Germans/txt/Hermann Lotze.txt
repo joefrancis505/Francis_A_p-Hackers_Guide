@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Hermann Lotze
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+       Eduard von Hartmann 0.941260
+ Friedrich Heinrich Jacobi 0.016470
+               John Bunyan 0.015844
+            Ludwig Büchner 0.002111
+                    Thünen 0.001785
+                 Hölderlin 0.001274
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1856.000  1861.422    1590.965
+Socialist                         0.000     0.003       0.141
+Political                         0.000     0.010       0.472
+YearofTranslationtoEnglish     1885.000  1882.294    1828.915
+wrote_English                     0.000     0.021       0.366
+wrote_French                      0.000     0.003       0.099
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.001       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.974       0.373
+special.cite_English.1914.1916    0.005     0.013       0.485
+special.cite_English.1908.1910    0.007     0.019       0.654
+special.cite_English.1902.1904    0.010     0.018       0.721
+special.cite_English.1896.1898    0.013     0.018       0.751
+special.cite_English.1890.1892    0.017     0.021       0.838
+special.cite_English.1884.1886    0.056     0.035       0.792
+special.cite_English.1878.1880    0.024     0.022       0.838
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.163862e-08
+Post (1917-1932): 1.05483e-08
+Post/Pre Ratio: 0.9063193 

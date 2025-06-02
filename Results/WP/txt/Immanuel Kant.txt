@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Immanuel Kant
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+  Ludwig Feuerbach 0.872201
+          Durkheim 0.030973
+           Thoreau 0.024555
+    Friedrich List 0.021175
+         Nietzsche 0.018137
+ Pliny the Younger 0.017959
+          Voltaire 0.004165
+  Thomas Jefferson 0.003170
+        Lord Acton 0.001684
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1785.000  1804.218    1468.505
+Socialist                         0.000     0.001       0.155
+Political                         0.000     0.033       0.588
+YearofTranslationtoEnglish     1895.000  1860.960    1793.021
+wrote_English                     0.000     0.031       0.515
+wrote_French                      0.000     0.036       0.144
+wrote_Greek                       0.000     0.002       0.113
+wrote_Latin                       0.000     0.018       0.082
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      1.000     0.913       0.103
+special.cite_English.1914.1916    0.094     0.093       0.670
+special.cite_English.1908.1910    0.076     0.083       0.913
+special.cite_English.1902.1904    0.096     0.085       1.006
+special.cite_English.1896.1898    0.077     0.078       1.045
+special.cite_English.1890.1892    0.065     0.066       1.170
+special.cite_English.1884.1886    0.058     0.059       1.115
+special.cite_English.1878.1880    0.050     0.053       1.187
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.116889e-08
+Post (1917-1932): 1.422433e-08
+Post/Pre Ratio: 1.273567 

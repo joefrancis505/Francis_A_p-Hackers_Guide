@@ -1,0 +1,46 @@
+Synthetic Control Analysis for Eduard Zeller
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+ Friedrich Carl von Savigny 0.395716
+             Ludwig Büchner 0.375029
+                Carl Stumpf 0.160239
+             Franz Brentano 0.014609
+              Hermann Cohen 0.012232
+                      Rilke 0.009664
+  Friedrich Heinrich Jacobi 0.005889
+            Theodor Fontane 0.005228
+                  Hölderlin 0.002416
+             E T A Hoffmann 0.002282
+           Ludwig Feuerbach 0.001844
+                     Thünen 0.001752
+     Barthold Georg Niebuhr 0.001426
+                      Külpe 0.001269
+        Eduard von Hartmann 0.001209
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1844.000  1842.742    1594.021
+Socialist                         0.000     0.001       0.138
+Political                         0.000     0.003       0.476
+YearofTranslationtoEnglish     1886.000  1886.112    1828.924
+wrote_English                     0.000     0.003       0.372
+wrote_French                      0.000     0.001       0.097
+wrote_Greek                       0.000     0.000       0.076
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.995       0.366
+special.cite_English.1914.1916    0.003     0.003       0.478
+special.cite_English.1908.1910    0.006     0.004       0.644
+special.cite_English.1902.1904    0.003     0.004       0.709
+special.cite_English.1896.1898    0.004     0.005       0.740
+special.cite_English.1890.1892    0.003     0.004       0.824
+special.cite_English.1884.1886    0.002     0.004       0.780
+special.cite_English.1878.1880    0.003     0.004       0.823
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.289244e-09
+Post (1917-1932): 2.001174e-09
+Post/Pre Ratio: 0.8741638 

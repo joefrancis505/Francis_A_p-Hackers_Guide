@@ -1,0 +1,29 @@
+Synthetic Control Analysis for Charles Fourier
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+          Name   Weight
+ Lujo Brentano 0.551139
+    Moses Hess 0.308029
+       Blanqui 0.126398
+   Robert Owen 0.007160
+      Proudhon 0.005790
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1808.000  1860.822    1862.176
+wrote_English                     0.000     0.559       0.412
+wrote_German                      0.000     0.308       0.353
+YearofTranslationtoEnglish     1901.000  1875.087    1879.353
+special.cite_English.1914.1916    0.007     0.011       0.130
+special.cite_English.1908.1910    0.016     0.012       0.168
+special.cite_English.1902.1904    0.014     0.010       0.161
+special.cite_English.1896.1898    0.012     0.016       0.170
+special.cite_English.1890.1892    0.017     0.020       0.199
+special.cite_English.1884.1886    0.016     0.019       0.162
+special.cite_English.1878.1880    0.015     0.027       0.132
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 7.190668e-09
+Post (1917-1932): 7.88199e-09
+Post/Pre Ratio: 1.096142 

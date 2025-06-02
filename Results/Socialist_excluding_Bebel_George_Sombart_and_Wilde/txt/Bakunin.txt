@@ -1,0 +1,29 @@
+Synthetic Control Analysis for Bakunin
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+        Blanqui 0.476212
+     Moses Hess 0.293399
+      Kropotkin 0.189102
+       Sismondi 0.036238
+ Edward Bellamy 0.004660
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1882.000  1864.017    1854.733
+wrote_English                     0.000     0.194       0.400
+wrote_German                      0.000     0.293       0.333
+YearofTranslationtoEnglish     1883.000  1916.355    1880.200
+special.cite_English.1914.1916    0.067     0.065       0.096
+special.cite_English.1908.1910    0.066     0.063       0.137
+special.cite_English.1902.1904    0.052     0.063       0.135
+special.cite_English.1896.1898    0.078     0.073       0.139
+special.cite_English.1890.1892    0.073     0.057       0.163
+special.cite_English.1884.1886    0.040     0.066       0.133
+special.cite_English.1878.1880    0.145     0.100       0.117
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.487521e-08
+Post (1917-1932): 1.109233e-07
+Post/Pre Ratio: 2.021373 

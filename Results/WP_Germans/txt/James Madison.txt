@@ -1,0 +1,36 @@
+Synthetic Control Analysis for James Madison
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+ Frederick Douglass 0.288685
+   Thomas Jefferson 0.270244
+             Hobbes 0.227649
+         Lord Acton 0.167829
+    Herbert Spencer 0.036010
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1787.000  1786.257    1591.451
+Socialist                         0.000     0.002       0.141
+Political                         1.000     0.995       0.465
+YearofTranslationtoEnglish     1787.000  1787.724    1829.606
+wrote_English                     1.000     0.994       0.359
+wrote_French                      0.000     0.001       0.099
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.004       0.380
+special.cite_English.1914.1916    0.339     0.356       0.482
+special.cite_English.1908.1910    0.344     0.388       0.651
+special.cite_English.1902.1904    0.606     0.586       0.716
+special.cite_English.1896.1898    0.458     0.439       0.748
+special.cite_English.1890.1892    0.386     0.389       0.835
+special.cite_English.1884.1886    0.353     0.352       0.790
+special.cite_English.1878.1880    0.238     0.254       0.837
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.351338e-08
+Post (1917-1932): 1.151332e-07
+Post/Pre Ratio: 2.151484 

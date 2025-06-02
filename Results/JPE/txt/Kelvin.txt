@@ -1,0 +1,33 @@
+Synthetic Control Analysis for Kelvin
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+ Abraham Lincoln 0.624684
+         Herbart 0.375315
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1841.000  1842.985    1564.405
+Socialist                         0.000     0.000       0.103
+Political                         0.000     0.625       0.400
+YearofTranslationtoEnglish     1841.000  1872.259    1800.231
+wrote_English                     1.000     0.625       0.390
+wrote_French                      0.000     0.000       0.133
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.375       0.287
+special.cite_English.1914.1916    1.008     1.511       0.561
+special.cite_English.1908.1910    2.470     1.885       0.738
+special.cite_English.1902.1904    1.873     1.517       0.808
+special.cite_English.1896.1898    2.150     1.438       0.855
+special.cite_English.1890.1892    0.447     1.276       0.944
+special.cite_English.1884.1886    0.149     0.891       0.890
+special.cite_English.1878.1880    0.089     0.643       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 6.140826e-07
+Post (1917-1932): 7.746168e-07
+Post/Pre Ratio: 1.261421 

@@ -1,0 +1,40 @@
+Synthetic Control Analysis for John Calvin
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+ Pliny the Younger 0.482969
+       Dostoyevsky 0.185741
+        Ebbinghaus 0.081523
+           Bastiat 0.071798
+    Charles Darwin 0.059822
+            Kempis 0.035784
+   Abraham Lincoln 0.032668
+           Spinoza 0.025308
+             Kafka 0.015182
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1536.000   884.656    1596.145
+Socialist                         0.000     0.002       0.138
+Political                         0.000     0.108       0.476
+YearofTranslationtoEnglish     1559.000  1875.320    1831.179
+wrote_English                     0.000     0.094       0.372
+wrote_French                      0.000     0.073       0.097
+wrote_Greek                       0.000     0.002       0.076
+wrote_Latin                       1.000     0.544       0.055
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.101       0.372
+special.cite_English.1914.1916    0.148     0.160       0.477
+special.cite_English.1908.1910    0.258     0.219       0.642
+special.cite_English.1902.1904    0.169     0.185       0.708
+special.cite_English.1896.1898    0.158     0.174       0.739
+special.cite_English.1890.1892    0.201     0.199       0.822
+special.cite_English.1884.1886    0.176     0.183       0.779
+special.cite_English.1878.1880    0.196     0.180       0.822
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.512888e-08
+Post (1917-1932): 4.030513e-08
+Post/Pre Ratio: 1.603936 

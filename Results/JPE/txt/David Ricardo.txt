@@ -1,0 +1,44 @@
+Synthetic Control Analysis for David Ricardo
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+      William Graham Sumner 0.547894
+                     Hobbes 0.181196
+              Nassau Senior 0.180786
+              Lujo Brentano 0.034703
+               Edward Haies 0.012827
+             Francis Pretty 0.008723
+                 Lord Acton 0.007891
+                     Bigges 0.006062
+             Philip Nichols 0.003544
+ Pedro Calderón de la Barca 0.001746
+              William Roper 0.001414
+                  de Gouges 0.001369
+                Jean Racine 0.001180
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1817.000  1817.713    1564.528
+Socialist                         0.000     0.036       0.103
+Political                         1.000     0.957       0.395
+YearofTranslationtoEnglish     1817.000  1819.356    1800.354
+wrote_English                     1.000     0.990       0.390
+wrote_French                      0.000     0.006       0.133
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.001       0.026
+wrote_Spanish                     0.000     0.002       0.010
+wrote_German                      0.000     0.001       0.287
+special.cite_English.1914.1916    0.012     0.019       0.566
+special.cite_English.1908.1910    0.024     0.026       0.750
+special.cite_English.1902.1904    0.024     0.022       0.817
+special.cite_English.1896.1898    0.029     0.025       0.866
+special.cite_English.1890.1892    0.023     0.023       0.947
+special.cite_English.1884.1886    0.017     0.025       0.890
+special.cite_English.1878.1880    0.019     0.021       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.238442e-08
+Post (1917-1932): 7.52746e-09
+Post/Pre Ratio: 0.607817 

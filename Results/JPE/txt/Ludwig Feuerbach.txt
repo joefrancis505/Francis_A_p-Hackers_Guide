@@ -1,0 +1,57 @@
+Synthetic Control Analysis for Ludwig Feuerbach
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+             Ludwig Büchner 0.619980
+     Barthold Georg Niebuhr 0.254345
+ Friedrich Carl von Savigny 0.072728
+            Theodor Fontane 0.003928
+                      Külpe 0.003842
+              Eduard Zeller 0.002541
+             E T A Hoffmann 0.002481
+        Eduard von Hartmann 0.002104
+                      Rilke 0.002057
+             Franz Brentano 0.002037
+                     Thünen 0.001964
+  Friedrich Heinrich Jacobi 0.001827
+         Friedrich Schiller 0.001826
+                  Hölderlin 0.001818
+          Ferdinand Tönnies 0.001379
+           Eduard Bernstein 0.001295
+              Hermann Cohen 0.001221
+             Grimmelshausen 0.001209
+                      Frege 0.001150
+                    Scheler 0.001101
+                Max Stirner 0.001083
+             Friedrich List 0.001063
+               August Bebel 0.001045
+                Thomas Mann 0.001045
+                 Moses Hess 0.001011
+                     Simmel 0.001006
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1841.000  1838.135    1564.405
+Socialist                         0.000     0.005       0.103
+Political                         0.000     0.011       0.400
+YearofTranslationtoEnglish     1854.000  1855.174    1800.164
+wrote_English                     0.000     0.003       0.395
+wrote_French                      0.000     0.001       0.133
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      1.000     0.995       0.282
+special.cite_English.1914.1916    0.005     0.005       0.566
+special.cite_English.1908.1910    0.006     0.007       0.750
+special.cite_English.1902.1904    0.008     0.007       0.817
+special.cite_English.1896.1898    0.007     0.008       0.866
+special.cite_English.1890.1892    0.007     0.008       0.947
+special.cite_English.1884.1886    0.006     0.007       0.890
+special.cite_English.1878.1880    0.004     0.008       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.959012e-09
+Post (1917-1932): 4.141212e-09
+Post/Pre Ratio: 1.399525 

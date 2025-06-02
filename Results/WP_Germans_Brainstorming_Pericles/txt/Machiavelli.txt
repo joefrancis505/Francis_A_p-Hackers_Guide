@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Machiavelli
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+ Dante Alighieri 0.441202
+ Robert Browning 0.418941
+        Pericles 0.068893
+           Plato 0.052523
+          Cicero 0.018434
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1532.000  1304.722    1582.473
+Socialist                         0.000     0.000       0.137
+Political                         1.000     0.140       0.473
+YearofTranslationtoEnglish     1640.000  1798.599    1829.233
+wrote_English                     0.000     0.419       0.370
+wrote_French                      0.000     0.000       0.096
+wrote_Greek                       0.000     0.121       0.082
+wrote_Latin                       0.000     0.018       0.062
+wrote_Italian                     1.000     0.441       0.007
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.000       0.370
+special.cite_English.1914.1916    0.548     0.594       0.477
+special.cite_English.1908.1910    0.653     0.813       0.646
+special.cite_English.1902.1904    0.917     0.944       0.709
+special.cite_English.1896.1898    1.112     1.047       0.739
+special.cite_English.1890.1892    1.718     1.379       0.823
+special.cite_English.1884.1886    0.619     0.952       0.781
+special.cite_English.1878.1880    0.993     0.915       0.824
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.302138e-07
+Post (1917-1932): 1.746854e-07
+Post/Pre Ratio: 0.4060431 

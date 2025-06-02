@@ -1,0 +1,36 @@
+Synthetic Control Analysis for de Gouges
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+       Charles Fourier 0.630616
+        Friedrich List 0.177820
+ William Graham Sumner 0.094755
+              Durkheim 0.086909
+     Pliny the Younger 0.008533
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1791.000  1811.844    1468.443
+Socialist                         0.000     0.631       0.155
+Political                         1.000     0.904       0.577
+YearofTranslationtoEnglish     1979.000  1908.956    1792.155
+wrote_English                     0.000     0.095       0.515
+wrote_French                      1.000     0.718       0.134
+wrote_Greek                       0.000     0.000       0.113
+wrote_Latin                       0.000     0.009       0.082
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.178       0.113
+special.cite_English.1914.1916    0.004     0.036       0.670
+special.cite_English.1908.1910    0.002     0.023       0.913
+special.cite_English.1902.1904    0.002     0.018       1.007
+special.cite_English.1896.1898    0.003     0.013       1.045
+special.cite_English.1890.1892    0.004     0.015       1.171
+special.cite_English.1884.1886    0.002     0.014       1.115
+special.cite_English.1878.1880    0.003     0.011       1.187
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.683033e-08
+Post (1917-1932): 2.8733e-08
+Post/Pre Ratio: 1.707215 

@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Oscar Wilde
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+  Lujo Brentano 0.394694
+    Robert Owen 0.303424
+      Nietzsche 0.151943
+ Wollstonecraft 0.083865
+          Kafka 0.064257
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1891.000  1851.170    1590.718
+Socialist                         1.000     0.699       0.134
+Political                         1.000     0.783       0.465
+YearofTranslationtoEnglish     1891.000  1854.374    1828.873
+wrote_English                     1.000     0.783       0.359
+wrote_French                      0.000     0.000       0.099
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.217       0.380
+special.cite_English.1914.1916    0.488     0.444       0.481
+special.cite_English.1908.1910    0.312     0.289       0.651
+special.cite_English.1902.1904    0.091     0.153       0.720
+special.cite_English.1896.1898    0.070     0.166       0.751
+special.cite_English.1890.1892    0.204     0.144       0.837
+special.cite_English.1884.1886    0.149     0.083       0.792
+special.cite_English.1878.1880    0.017     0.064       0.838
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.504756e-07
+Post (1917-1932): 2.289027e-07
+Post/Pre Ratio: 1.521194 

@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Archibald Geikie
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+         Otto Pfleiderer 0.666917
+           Joseph Lister 0.198438
+         Robert Browning 0.066817
+                  Kelvin 0.039426
+ Hans Christian Andersen 0.002339
+            Robert Burns 0.001803
+     Ralph Waldo Emerson 0.001415
+            Walt Whitman 0.001297
+              Lord Byron 0.001141
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1875.000  1866.506    1564.231
+Socialist                         0.000     0.001       0.103
+Political                         0.000     0.006       0.400
+YearofTranslationtoEnglish     1875.000  1875.054    1800.056
+wrote_English                     1.000     0.992       0.390
+wrote_French                      0.000     0.002       0.133
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.001       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.004       0.287
+special.cite_English.1914.1916    0.076     0.085       0.566
+special.cite_English.1908.1910    0.162     0.175       0.749
+special.cite_English.1902.1904    0.156     0.148       0.817
+special.cite_English.1896.1898    0.224     0.206       0.865
+special.cite_English.1890.1892    0.164     0.166       0.946
+special.cite_English.1884.1886    0.099     0.102       0.890
+special.cite_English.1878.1880    0.052     0.051       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 3.911205e-08
+Post (1917-1932): 4.739415e-08
+Post/Pre Ratio: 1.211753 

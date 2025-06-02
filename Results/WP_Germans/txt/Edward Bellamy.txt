@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Edward Bellamy
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+   Lujo Brentano 0.804069
+ Robert Browning 0.101531
+           Kafka 0.073104
+     Machiavelli 0.016774
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1888.000  1864.788    1590.739
+Socialist                         1.000     0.805       0.134
+Political                         1.000     0.824       0.465
+YearofTranslationtoEnglish     1888.000  1868.212    1828.894
+wrote_English                     1.000     0.907       0.359
+wrote_French                      0.000     0.001       0.099
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.056
+wrote_Italian                     0.000     0.017       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.075       0.380
+special.cite_English.1914.1916    0.016     0.059       0.485
+special.cite_English.1908.1910    0.027     0.064       0.653
+special.cite_English.1902.1904    0.036     0.085       0.720
+special.cite_English.1896.1898    0.133     0.103       0.750
+special.cite_English.1890.1892    0.215     0.169       0.837
+special.cite_English.1884.1886    0.040     0.067       0.792
+special.cite_English.1878.1880    0.035     0.047       0.838
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.046181e-08
+Post (1917-1932): 3.328334e-08
+Post/Pre Ratio: 0.6595748 

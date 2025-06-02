@@ -1,0 +1,32 @@
+Synthetic Control Analysis for Robert Owen
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+       Karl Marx 0.408410
+     John Ruskin 0.136633
+   Lujo Brentano 0.128454
+  Edward Bellamy 0.114279
+  Thomas Carlyle 0.089522
+        Sismondi 0.070770
+       Kropotkin 0.048741
+ Charles Fourier 0.001405
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1813.000  1864.194    1859.333
+wrote_English                     1.000     0.518       0.333
+wrote_German                      0.000     0.409       0.333
+YearofTranslationtoEnglish     1813.000  1874.685    1884.867
+special.cite_English.1914.1916    0.165     0.160       0.090
+special.cite_English.1908.1910    0.240     0.232       0.125
+special.cite_English.1902.1904    0.183     0.210       0.126
+special.cite_English.1896.1898    0.176     0.200       0.132
+special.cite_English.1890.1892    0.293     0.232       0.149
+special.cite_English.1884.1886    0.178     0.186       0.123
+special.cite_English.1878.1880    0.140     0.135       0.117
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.536943e-08
+Post (1917-1932): 6.505329e-08
+Post/Pre Ratio: 1.174895 

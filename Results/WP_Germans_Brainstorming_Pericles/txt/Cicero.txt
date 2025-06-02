@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Cicero
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+      Name   Weight
+ Augustine 0.403815
+     Plato 0.215520
+    Goethe 0.200059
+      Hume 0.180602
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication               -51.000   765.929    1593.315
+Socialist                         0.000     0.000       0.137
+Political                         1.000     0.396       0.473
+YearofTranslationtoEnglish     1854.000  1818.215    1827.767
+wrote_English                     0.000     0.181       0.370
+wrote_French                      0.000     0.000       0.096
+wrote_Greek                       0.000     0.216       0.082
+wrote_Latin                       1.000     0.404       0.055
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.200       0.370
+special.cite_English.1914.1916    4.380     4.208       0.451
+special.cite_English.1908.1910    6.303     5.673       0.607
+special.cite_English.1902.1904    6.353     6.507       0.672
+special.cite_English.1896.1898    7.100     6.943       0.698
+special.cite_English.1890.1892    8.320     7.758       0.777
+special.cite_English.1884.1886    7.377     7.893       0.734
+special.cite_English.1878.1880   10.490     8.261       0.759
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.113231e-06
+Post (1917-1932): 8.137118e-07
+Post/Pre Ratio: 0.7309459 

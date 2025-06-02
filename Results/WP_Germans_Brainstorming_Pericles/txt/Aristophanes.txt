@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Aristophanes
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+       Sophocles 0.400335
+       Euripides 0.258681
+           Aesop 0.185401
+       Aeschylus 0.075128
+ Marcus Aurelius 0.061825
+           Plato 0.010689
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              -386.000  -383.606    1595.610
+Socialist                         0.000     0.001       0.137
+Political                         0.000     0.014       0.479
+YearofTranslationtoEnglish     1655.000  1655.325    1829.130
+wrote_English                     0.000     0.003       0.370
+wrote_French                      0.000     0.001       0.096
+wrote_Greek                       1.000     0.993       0.075
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.003       0.370
+special.cite_English.1914.1916    0.750     0.766       0.476
+special.cite_English.1908.1910    1.173     1.156       0.642
+special.cite_English.1902.1904    1.188     1.209       0.707
+special.cite_English.1896.1898    1.383     1.323       0.737
+special.cite_English.1890.1892    1.497     1.510       0.824
+special.cite_English.1884.1886    1.253     1.215       0.776
+special.cite_English.1878.1880    1.547     1.596       0.820
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 9.989503e-08
+Post (1917-1932): 8.947786e-08
+Post/Pre Ratio: 0.8957188 

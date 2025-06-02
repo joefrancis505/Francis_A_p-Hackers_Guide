@@ -1,0 +1,41 @@
+Synthetic Control Analysis for Ralph Waldo Emerson
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+             Name   Weight
+  Otto Pfleiderer 0.529948
+       Lord Acton 0.138542
+  Herbert Spencer 0.068729
+      John Bunyan 0.067527
+    Francis Bacon 0.043767
+ Thomas Jefferson 0.038691
+          Herbart 0.035605
+          Leibniz 0.027171
+          Marlowe 0.025117
+   Charles Darwin 0.024689
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1841.000  1832.010    1594.041
+Socialist                         0.000     0.000       0.138
+Political                         0.000     0.246       0.476
+YearofTranslationtoEnglish     1841.000  1847.324    1829.234
+wrote_English                     1.000     0.937       0.366
+wrote_French                      0.000     0.000       0.097
+wrote_Greek                       0.000     0.000       0.076
+wrote_Latin                       0.000     0.027       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.036       0.372
+special.cite_English.1914.1916    0.175     0.178       0.477
+special.cite_English.1908.1910    0.270     0.271       0.642
+special.cite_English.1902.1904    0.370     0.359       0.707
+special.cite_English.1896.1898    0.280     0.280       0.738
+special.cite_English.1890.1892    0.270     0.278       0.822
+special.cite_English.1884.1886    0.320     0.307       0.778
+special.cite_English.1878.1880    0.181     0.207       0.822
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.984725e-08
+Post (1917-1932): 3.177651e-08
+Post/Pre Ratio: 0.5309602 

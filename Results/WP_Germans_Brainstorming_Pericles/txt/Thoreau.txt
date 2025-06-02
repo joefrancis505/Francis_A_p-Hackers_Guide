@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Thoreau
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+             Name   Weight
+          Herbart 0.358270
+ Thomas Jefferson 0.196637
+  Robert Browning 0.151054
+          Marlowe 0.147409
+  Abraham Lincoln 0.099854
+             Hume 0.041000
+       Lord Acton 0.005768
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1854.000  1780.342    1580.267
+Socialist                         0.000     0.000       0.137
+Political                         0.000     0.343       0.479
+YearofTranslationtoEnglish     1854.000  1808.293    1827.767
+wrote_English                     1.000     0.642       0.363
+wrote_French                      0.000     0.000       0.096
+wrote_Greek                       0.000     0.000       0.082
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.358       0.370
+special.cite_English.1914.1916    0.712     0.836       0.476
+special.cite_English.1908.1910    1.135     1.078       0.643
+special.cite_English.1902.1904    1.427     1.295       0.706
+special.cite_English.1896.1898    1.194     1.191       0.739
+special.cite_English.1890.1892    1.153     1.113       0.826
+special.cite_English.1884.1886    0.789     0.870       0.780
+special.cite_English.1878.1880    0.724     0.780       0.826
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 3.184855e-07
+Post (1917-1932): 2.116936e-07
+Post/Pre Ratio: 0.6646884 

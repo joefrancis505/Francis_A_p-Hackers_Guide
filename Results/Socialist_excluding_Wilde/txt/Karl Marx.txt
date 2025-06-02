@@ -1,0 +1,30 @@
+Synthetic Control Analysis for Karl Marx
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+            Sombart 0.544739
+          Rodbertus 0.220202
+       Henry George 0.211346
+         Moses Hess 0.014936
+ Ferdinand Lassalle 0.005060
+           Proudhon 0.002989
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1867.000  1886.001    1861.278
+wrote_English                     0.000     0.211       0.389
+wrote_German                      1.000     0.785       0.333
+YearofTranslationtoEnglish     1887.000  1899.094    1881.778
+special.cite_English.1914.1916    0.216     0.213       0.117
+special.cite_English.1908.1910    0.291     0.196       0.146
+special.cite_English.1902.1904    0.162     0.162       0.146
+special.cite_English.1896.1898    0.177     0.187       0.153
+special.cite_English.1890.1892    0.206     0.213       0.178
+special.cite_English.1884.1886    0.176     0.176       0.145
+special.cite_English.1878.1880    0.077     0.091       0.122
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.339641e-08
+Post (1917-1932): 3.106276e-07
+Post/Pre Ratio: 5.817388 

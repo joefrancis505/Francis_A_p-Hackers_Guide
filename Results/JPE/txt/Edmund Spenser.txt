@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Edmund Spenser
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+         Hobbes 0.578694
+ William Caxton 0.322529
+      Froissart 0.057975
+ Francis Pretty 0.004594
+        Pasteur 0.002231
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1590.000  1578.112    1565.692
+Socialist                         0.000     0.004       0.103
+Political                         1.000     0.652       0.395
+YearofTranslationtoEnglish     1590.000  1591.100    1801.518
+wrote_English                     1.000     0.922       0.390
+wrote_French                      0.000     0.064       0.133
+wrote_Greek                       0.000     0.002       0.077
+wrote_Latin                       0.000     0.002       0.072
+wrote_Italian                     0.000     0.001       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.009       0.287
+special.cite_English.1914.1916    0.068     0.067       0.566
+special.cite_English.1908.1910    0.101     0.101       0.750
+special.cite_English.1902.1904    0.120     0.112       0.817
+special.cite_English.1896.1898    0.104     0.120       0.866
+special.cite_English.1890.1892    0.128     0.123       0.946
+special.cite_English.1884.1886    0.140     0.127       0.890
+special.cite_English.1878.1880    0.114     0.130       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 3.416682e-08
+Post (1917-1932): 4.171787e-08
+Post/Pre Ratio: 1.221005 

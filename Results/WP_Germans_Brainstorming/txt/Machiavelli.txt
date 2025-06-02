@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Machiavelli
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+  Edward Bellamy 0.565083
+      Thucydides 0.177225
+ Robert Browning 0.116740
+           Plato 0.056562
+        Rousseau 0.038983
+ Dante Alighieri 0.026340
+      Adam Smith 0.018985
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1532.000  1325.824    1596.172
+Socialist                         0.000     0.565       0.138
+Political                         1.000     0.857       0.469
+YearofTranslationtoEnglish     1640.000  1825.715    1830.621
+wrote_English                     0.000     0.701       0.372
+wrote_French                      0.000     0.039       0.097
+wrote_Greek                       0.000     0.234       0.076
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     1.000     0.026       0.007
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.000       0.372
+special.cite_English.1914.1916    0.548     0.548       0.474
+special.cite_English.1908.1910    0.653     0.782       0.639
+special.cite_English.1902.1904    0.917     0.866       0.703
+special.cite_English.1896.1898    1.112     1.034       0.732
+special.cite_English.1890.1892    1.718     1.364       0.812
+special.cite_English.1884.1886    0.619     0.991       0.776
+special.cite_English.1878.1880    0.993     1.044       0.816
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.237938e-07
+Post (1917-1932): 1.653909e-07
+Post/Pre Ratio: 0.3902626 

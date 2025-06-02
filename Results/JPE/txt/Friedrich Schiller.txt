@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Friedrich Schiller
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+ E T A Hoffmann 0.949918
+ William Caxton 0.021245
+         Herder 0.015954
+         Kempis 0.005568
+          Aesop 0.003909
+      Froissart 0.003106
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1799.000  1794.413    1564.621
+Socialist                         0.000     0.000       0.103
+Political                         0.000     0.003       0.400
+YearofTranslationtoEnglish     1800.000  1811.864    1800.441
+wrote_English                     0.000     0.021       0.395
+wrote_French                      0.000     0.003       0.133
+wrote_Greek                       0.000     0.004       0.077
+wrote_Latin                       0.000     0.006       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      1.000     0.966       0.282
+special.cite_English.1914.1916    0.008     0.023       0.566
+special.cite_English.1908.1910    0.013     0.028       0.750
+special.cite_English.1902.1904    0.027     0.024       0.817
+special.cite_English.1896.1898    0.011     0.020       0.866
+special.cite_English.1890.1892    0.015     0.023       0.947
+special.cite_English.1884.1886    0.015     0.028       0.890
+special.cite_English.1878.1880    0.009     0.023       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.351298e-08
+Post (1917-1932): 1.834575e-08
+Post/Pre Ratio: 1.357639 

@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Hippolyte Taine
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+     Jean Racine 0.431728
+       de Gouges 0.324124
+     Carl Stumpf 0.161573
+        Durkheim 0.047677
+ Otto Pfleiderer 0.031578
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1853.000  1762.852    1564.344
+Socialist                         0.000     0.000       0.103
+Political                         0.000     0.325       0.400
+YearofTranslationtoEnglish     1865.000  1847.135    1800.108
+wrote_English                     0.000     0.033       0.395
+wrote_French                      1.000     0.804       0.128
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.162       0.287
+special.cite_English.1914.1916    0.004     0.019       0.566
+special.cite_English.1908.1910    0.006     0.011       0.750
+special.cite_English.1902.1904    0.012     0.009       0.817
+special.cite_English.1896.1898    0.003     0.010       0.866
+special.cite_English.1890.1892    0.002     0.009       0.947
+special.cite_English.1884.1886    0.001     0.007       0.890
+special.cite_English.1878.1880    0.003     0.008       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 8.322312e-09
+Post (1917-1932): 1.107678e-08
+Post/Pre Ratio: 1.330974 

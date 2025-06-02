@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Schmoller
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                 Name   Weight
+          Max Stirner 0.419264
+             Schäffle 0.297465
+    Ferdinand Tönnies 0.079566
+           Lord Acton 0.052836
+              Herbart 0.050976
+           Moses Hess 0.039171
+            Nietzsche 0.026247
+ Wilhelm von Humboldt 0.006219
+          Carl Stumpf 0.003872
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1884.000  1853.455    1580.062
+Socialist                         0.000     0.044       0.137
+Political                         1.000     0.908       0.473
+YearofTranslationtoEnglish     1897.000  1897.186    1827.473
+wrote_English                     0.000     0.064       0.370
+wrote_French                      0.000     0.003       0.096
+wrote_Greek                       0.000     0.001       0.082
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.930       0.363
+special.cite_English.1914.1916    0.105     0.105       0.480
+special.cite_English.1908.1910    0.093     0.095       0.650
+special.cite_English.1902.1904    0.105     0.097       0.715
+special.cite_English.1896.1898    0.094     0.093       0.746
+special.cite_English.1890.1892    0.057     0.062       0.834
+special.cite_English.1884.1886    0.028     0.034       0.785
+special.cite_English.1878.1880    0.026     0.029       0.831
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.81593e-08
+Post (1917-1932): 2.720843e-08
+Post/Pre Ratio: 1.498319 

@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Voltaire
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+      Name   Weight
+ de Gouges 0.361827
+    Goethe 0.263040
+  Rousseau 0.144171
+      Hume 0.113538
+     Plato 0.080465
+    Cicero 0.031128
+   Blanqui 0.005821
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1731.000  1554.910    1594.800
+Socialist                         0.000     0.006       0.138
+Political                         1.000     0.737       0.469
+YearofTranslationtoEnglish     1950.000  1882.081    1828.483
+wrote_English                     0.000     0.114       0.372
+wrote_French                      1.000     0.512       0.090
+wrote_Greek                       0.000     0.080       0.076
+wrote_Latin                       0.000     0.031       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.263       0.372
+special.cite_English.1914.1916    1.640     2.305       0.466
+special.cite_English.1908.1910    2.850     3.089       0.624
+special.cite_English.1902.1904    4.013     3.654       0.682
+special.cite_English.1896.1898    4.190     3.613       0.711
+special.cite_English.1890.1892    3.920     4.320       0.797
+special.cite_English.1884.1886    5.493     4.539       0.743
+special.cite_English.1878.1880    4.800     4.809       0.790
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.16119e-06
+Post (1917-1932): 7.579233e-07
+Post/Pre Ratio: 0.6527128 

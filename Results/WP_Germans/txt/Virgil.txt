@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Virgil
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+      Name   Weight
+ Augustine 0.382984
+    Kempis 0.332460
+    Cicero 0.259712
+ Aristotle 0.024453
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication               -19.000   613.317    1604.169
+Socialist                         0.000     0.000       0.141
+Political                         0.000     0.284       0.472
+YearofTranslationtoEnglish     1697.000  1726.504    1830.239
+wrote_English                     0.000     0.000       0.366
+wrote_French                      0.000     0.000       0.099
+wrote_Greek                       0.000     0.025       0.077
+wrote_Latin                       1.000     0.975       0.049
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.000       0.380
+special.cite_English.1914.1916    2.687     3.050       0.466
+special.cite_English.1908.1910    4.240     4.129       0.624
+special.cite_English.1902.1904    4.380     4.360       0.690
+special.cite_English.1896.1898    4.990     4.951       0.716
+special.cite_English.1890.1892    5.417     5.293       0.800
+special.cite_English.1884.1886    5.060     5.163       0.757
+special.cite_English.1878.1880    6.157     6.047       0.795
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.913285e-07
+Post (1917-1932): 3.049415e-07
+Post/Pre Ratio: 0.6206468 

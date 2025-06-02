@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Aesop
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+        Name   Weight
+      Hobbes 0.888095
+ John Calvin 0.060904
+   Nietzsche 0.035529
+   Aeschylus 0.015063
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              -546.000  1620.401    1596.705
+Socialist                         0.000     0.000       0.137
+Political                         0.000     0.888       0.479
+YearofTranslationtoEnglish     1484.000  1654.243    1830.301
+wrote_English                     0.000     0.888       0.370
+wrote_French                      0.000     0.000       0.096
+wrote_Greek                       1.000     0.015       0.075
+wrote_Latin                       0.000     0.061       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.036       0.370
+special.cite_English.1914.1916    0.148     0.131       0.480
+special.cite_English.1908.1910    0.136     0.114       0.650
+special.cite_English.1902.1904    0.078     0.082       0.715
+special.cite_English.1896.1898    0.073     0.092       0.746
+special.cite_English.1890.1892    0.044     0.060       0.834
+special.cite_English.1884.1886    0.034     0.063       0.785
+special.cite_English.1878.1880    0.050     0.063       0.830
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.632621e-08
+Post (1917-1932): 1.21123e-07
+Post/Pre Ratio: 4.60085 

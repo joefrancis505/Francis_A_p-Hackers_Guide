@@ -1,0 +1,39 @@
+Synthetic Control Analysis for Oliver Goldsmith
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+ Hans Christian Andersen 0.298911
+            Izaak Walton 0.232938
+         Otto Pfleiderer 0.202692
+             John Bunyan 0.119091
+                 Marlowe 0.052522
+              Lord Byron 0.048946
+    Percy Bysshe Shelley 0.018580
+           Thomas Browne 0.009453
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1773.000  1768.250    1591.549
+Socialist                         0.000     0.002       0.141
+Political                         0.000     0.009       0.472
+YearofTranslationtoEnglish     1773.000  1773.195    1829.704
+wrote_English                     1.000     0.990       0.359
+wrote_French                      0.000     0.001       0.099
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.001       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.006       0.380
+special.cite_English.1914.1916    0.126     0.128       0.484
+special.cite_English.1908.1910    0.232     0.233       0.652
+special.cite_English.1902.1904    0.281     0.264       0.719
+special.cite_English.1896.1898    0.224     0.239       0.750
+special.cite_English.1890.1892    0.231     0.256       0.837
+special.cite_English.1884.1886    0.287     0.302       0.791
+special.cite_English.1878.1880    0.318     0.285       0.836
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.180397e-08
+Post (1917-1932): 1.257816e-07
+Post/Pre Ratio: 3.008843 

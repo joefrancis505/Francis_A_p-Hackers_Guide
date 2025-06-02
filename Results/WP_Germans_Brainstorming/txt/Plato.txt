@@ -1,0 +1,34 @@
+Synthetic Control Analysis for Plato
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+      Name   Weight
+ Aristotle 0.776378
+    Goethe 0.218221
+    Cicero 0.005393
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              -400.000   144.278    1609.497
+Socialist                         0.000     0.000       0.138
+Political                         1.000     0.782       0.469
+YearofTranslationtoEnglish     1763.000  1649.599    1829.772
+wrote_English                     0.000     0.000       0.372
+wrote_French                      0.000     0.000       0.097
+wrote_Greek                       1.000     0.776       0.069
+wrote_Latin                       0.000     0.005       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.218       0.372
+special.cite_English.1914.1916    4.663     4.015       0.446
+special.cite_English.1908.1910    6.677     5.816       0.598
+special.cite_English.1902.1904    7.593     6.562       0.657
+special.cite_English.1896.1898    8.343     6.827       0.683
+special.cite_English.1890.1892   10.730     8.474       0.750
+special.cite_English.1884.1886    9.320     8.160       0.716
+special.cite_English.1878.1880    9.047     8.087       0.761
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.550078e-06
+Post (1917-1932): 1.085542e-06
+Post/Pre Ratio: 0.7003145 

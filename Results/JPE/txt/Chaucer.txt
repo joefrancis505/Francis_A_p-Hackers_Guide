@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Chaucer
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+        Name   Weight
+      Cicero 0.420479
+ Machiavelli 0.260742
+      Kelvin 0.150508
+       Homer 0.066060
+      Newton 0.051547
+   Nietzsche 0.049648
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1400.000   790.924    1566.667
+Socialist                         0.000     0.000       0.103
+Political                         0.000     0.682       0.400
+YearofTranslationtoEnglish     1400.000  1774.868    1802.492
+wrote_English                     1.000     0.151       0.390
+wrote_French                      0.000     0.000       0.133
+wrote_Greek                       0.000     0.066       0.077
+wrote_Latin                       0.000     0.472       0.072
+wrote_Italian                     0.000     0.261       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.050       0.287
+special.cite_English.1914.1916    3.487     3.457       0.548
+special.cite_English.1908.1910    4.607     4.551       0.727
+special.cite_English.1902.1904    4.490     4.614       0.794
+special.cite_English.1896.1898    5.107     5.046       0.840
+special.cite_English.1890.1892    5.663     5.557       0.918
+special.cite_English.1884.1886    4.567     4.714       0.867
+special.cite_English.1878.1880    6.323     6.274       0.915
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.358488e-06
+Post (1917-1932): 8.260889e-07
+Post/Pre Ratio: 0.6080946 

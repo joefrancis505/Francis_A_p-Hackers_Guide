@@ -1,0 +1,34 @@
+Synthetic Control Analysis for Pierre Corneille
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+          Name   Weight
+   Jean Racine 0.874402
+ Ambroise Paré 0.105482
+     Froissart 0.016162
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1629.000  1649.975    1565.492
+Socialist                         0.000     0.000       0.103
+Political                         0.000     0.018       0.400
+YearofTranslationtoEnglish     1637.000  1661.733    1801.277
+wrote_English                     0.000     0.001       0.395
+wrote_French                      1.000     0.997       0.128
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.001       0.287
+special.cite_English.1914.1916    0.007     0.010       0.566
+special.cite_English.1908.1910    0.016     0.020       0.750
+special.cite_English.1902.1904    0.025     0.021       0.817
+special.cite_English.1896.1898    0.019     0.026       0.866
+special.cite_English.1890.1892    0.018     0.022       0.947
+special.cite_English.1884.1886    0.026     0.020       0.890
+special.cite_English.1878.1880    0.024     0.022       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 7.426333e-09
+Post (1917-1932): 1.043439e-08
+Post/Pre Ratio: 1.405053 

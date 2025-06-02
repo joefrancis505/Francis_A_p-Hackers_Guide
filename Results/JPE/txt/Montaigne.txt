@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Montaigne
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+        Name   Weight
+     Thoreau 0.380800
+   Froissart 0.292371
+     Marlowe 0.117611
+ Machiavelli 0.063792
+      Kelvin 0.053777
+        Hume 0.045011
+    Voltaire 0.018767
+    Plutarch 0.014077
+   Aristotle 0.013652
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1580.000  1606.074    1565.744
+Socialist                         0.000     0.000       0.103
+Political                         0.000     0.448       0.400
+YearofTranslationtoEnglish     1603.000  1702.064    1801.451
+wrote_English                     0.000     0.597       0.395
+wrote_French                      1.000     0.311       0.128
+wrote_Greek                       0.000     0.028       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.064       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.000       0.287
+special.cite_English.1914.1916    0.639     0.773       0.563
+special.cite_English.1908.1910    1.270     1.264       0.744
+special.cite_English.1902.1904    1.590     1.516       0.809
+special.cite_English.1896.1898    1.337     1.352       0.859
+special.cite_English.1890.1892    1.413     1.376       0.939
+special.cite_English.1884.1886    1.160     1.186       0.884
+special.cite_English.1878.1880    1.237     1.258       0.941
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.726426e-07
+Post (1917-1932): 2.063328e-07
+Post/Pre Ratio: 0.7567885 

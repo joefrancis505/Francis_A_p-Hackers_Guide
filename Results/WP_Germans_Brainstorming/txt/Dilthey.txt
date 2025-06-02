@@ -1,0 +1,63 @@
+Synthetic Control Analysis for Dilthey
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+                Carl Stumpf 0.645925
+  Friedrich Heinrich Jacobi 0.147585
+                      Kafka 0.079363
+                  Nietzsche 0.009201
+              Hermann Cohen 0.007430
+                      Frege 0.006394
+                      Rilke 0.005916
+                    Scheler 0.005695
+                     Simmel 0.005336
+                Thomas Mann 0.005328
+            Theodor Fontane 0.004690
+                 Windelband 0.004451
+                      Külpe 0.004401
+                 Clausewitz 0.003702
+             Ludwig Büchner 0.003664
+              Eduard Zeller 0.003634
+                 Ebbinghaus 0.003554
+             Franz Brentano 0.003447
+           Ludwig Feuerbach 0.003410
+             Gustav Freytag 0.003346
+        Eduard von Hartmann 0.003322
+ Friedrich Carl von Savigny 0.003186
+     Barthold Georg Niebuhr 0.003117
+             E T A Hoffmann 0.003040
+         Friedrich Schiller 0.002909
+              Immanuel Kant 0.002761
+                      Wundt 0.002452
+              Hermann Lotze 0.002411
+                    Herbart 0.002208
+                     Hamann 0.001781
+                     Thünen 0.001531
+             Grimmelshausen 0.001108
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1883.000  1882.964    1593.752
+Socialist                         0.000     0.002       0.138
+Political                         0.000     0.005       0.476
+YearofTranslationtoEnglish     1989.000  1988.976    1828.214
+wrote_English                     0.000     0.004       0.372
+wrote_French                      0.000     0.001       0.097
+wrote_Greek                       0.000     0.001       0.076
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.993       0.366
+special.cite_English.1914.1916    0.039     0.039       0.477
+special.cite_English.1908.1910    0.028     0.030       0.643
+special.cite_English.1902.1904    0.028     0.023       0.709
+special.cite_English.1896.1898    0.024     0.026       0.740
+special.cite_English.1890.1892    0.043     0.039       0.823
+special.cite_English.1884.1886    0.009     0.018       0.780
+special.cite_English.1878.1880    0.012     0.017       0.823
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.223927e-08
+Post (1917-1932): 3.954689e-08
+Post/Pre Ratio: 3.231147 

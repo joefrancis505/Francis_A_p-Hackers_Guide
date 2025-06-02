@@ -1,0 +1,39 @@
+Synthetic Control Analysis for Thomas Jefferson
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+  Benjamin Franklin 0.493430
+ Alexander Hamilton 0.264669
+     Edmund Spenser 0.080874
+      James Madison 0.068875
+    Abraham Lincoln 0.067769
+               Hume 0.008402
+             Newton 0.006045
+             Kelvin 0.005331
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1776.000  1777.352    1564.738
+Socialist                         0.000     0.001       0.103
+Political                         1.000     0.986       0.395
+YearofTranslationtoEnglish     1776.000  1778.688    1800.564
+wrote_English                     1.000     0.991       0.390
+wrote_French                      0.000     0.001       0.133
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.006       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.001       0.287
+special.cite_English.1914.1916    1.053     1.038       0.561
+special.cite_English.1908.1910    1.017     1.123       0.745
+special.cite_English.1902.1904    1.493     1.178       0.810
+special.cite_English.1896.1898    1.117     1.106       0.860
+special.cite_English.1890.1892    0.952     1.010       0.942
+special.cite_English.1884.1886    0.837     0.885       0.886
+special.cite_English.1878.1880    0.624     0.786       0.944
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.708963e-07
+Post (1917-1932): 1.386942e-07
+Post/Pre Ratio: 0.8115693 

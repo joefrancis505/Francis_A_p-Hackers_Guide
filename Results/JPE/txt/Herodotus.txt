@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Herodotus
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+       Name   Weight
+ Thucydides 0.590386
+     Cicero 0.269056
+   Plutarch 0.138859
+      Homer 0.001638
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              -430.000  -267.708    1576.051
+Socialist                         0.000     0.000       0.103
+Political                         1.000     0.998       0.395
+YearofTranslationtoEnglish     1849.000  1681.955    1800.190
+wrote_English                     0.000     0.000       0.395
+wrote_French                      0.000     0.000       0.133
+wrote_Greek                       1.000     0.731       0.072
+wrote_Latin                       0.000     0.269       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.000       0.287
+special.cite_English.1914.1916    1.067     1.736       0.561
+special.cite_English.1908.1910    2.247     2.683       0.739
+special.cite_English.1902.1904    2.110     2.667       0.807
+special.cite_English.1896.1898    2.620     3.073       0.853
+special.cite_English.1890.1892    3.630     3.770       0.928
+special.cite_English.1884.1886    3.640     3.188       0.872
+special.cite_English.1878.1880    5.667     4.417       0.918
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 6.282869e-07
+Post (1917-1932): 6.491156e-07
+Post/Pre Ratio: 1.033152 

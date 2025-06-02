@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Bakunin
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+ Charles Fourier 0.547127
+         Blanqui 0.348612
+        Sismondi 0.053761
+     John Milton 0.026763
+       Nietzsche 0.013938
+       de Gouges 0.001790
+          Hobbes 0.001494
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1882.000  1823.723    1467.505
+Socialist                         1.000     0.951       0.144
+Political                         1.000     0.985       0.577
+YearofTranslationtoEnglish     1883.000  1914.486    1793.144
+wrote_English                     0.000     0.032       0.515
+wrote_French                      1.000     0.953       0.134
+wrote_Greek                       0.000     0.000       0.113
+wrote_Latin                       0.000     0.000       0.082
+wrote_Italian                     0.000     0.001       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.014       0.113
+special.cite_English.1914.1916    0.067     0.066       0.670
+special.cite_English.1908.1910    0.066     0.065       0.913
+special.cite_English.1902.1904    0.052     0.057       1.006
+special.cite_English.1896.1898    0.078     0.071       1.045
+special.cite_English.1890.1892    0.073     0.075       1.170
+special.cite_English.1884.1886    0.040     0.078       1.115
+special.cite_English.1878.1880    0.145     0.113       1.186
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.453458e-08
+Post (1917-1932): 1.238445e-07
+Post/Pre Ratio: 2.270935 

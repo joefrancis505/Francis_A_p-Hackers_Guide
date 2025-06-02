@@ -1,0 +1,47 @@
+Synthetic Control Analysis for Edmund Burke
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+        John Stuart Mill 0.347995
+                  Hobbes 0.225528
+          Wollstonecraft 0.134115
+ James Fitzjames Stephen 0.095571
+      Frederick Douglass 0.081897
+      Alexander Hamilton 0.052955
+                    Hume 0.015444
+            John Woolman 0.007836
+          William Godwin 0.007735
+            William Penn 0.004476
+           David Ricardo 0.004120
+          John C Calhoun 0.002095
+           James Madison 0.001402
+              Adam Smith 0.001302
+          Richard Cobden 0.001198
+          Jonathan Swift 0.001017
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1790.000  1787.247    1591.430
+Socialist                         0.000     0.002       0.141
+Political                         1.000     0.993       0.465
+YearofTranslationtoEnglish     1790.000  1790.086    1829.585
+wrote_English                     1.000     0.992       0.359
+wrote_French                      0.000     0.001       0.099
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.001       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.004       0.380
+special.cite_English.1914.1916    0.265     0.255       0.483
+special.cite_English.1908.1910    0.324     0.350       0.651
+special.cite_English.1902.1904    0.343     0.354       0.718
+special.cite_English.1896.1898    0.422     0.394       0.748
+special.cite_English.1890.1892    0.401     0.416       0.835
+special.cite_English.1884.1886    0.435     0.442       0.790
+special.cite_English.1878.1880    0.503     0.477       0.835
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.472943e-08
+Post (1917-1932): 3.467943e-08
+Post/Pre Ratio: 0.7753158 

@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Wundt
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+              Kafka 0.391022
+            Herbart 0.344922
+    Abraham Lincoln 0.102680
+   Thomas Jefferson 0.044846
+            Thoreau 0.036660
+         Ebbinghaus 0.033548
+         Lord Acton 0.026541
+          Nietzsche 0.016487
+ Friedrich Schiller 0.003021
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1896.000  1862.841    1579.979
+Socialist                         0.000     0.000       0.137
+Political                         0.000     0.174       0.479
+YearofTranslationtoEnglish     1897.000  1899.555    1827.473
+wrote_English                     0.000     0.211       0.370
+wrote_French                      0.000     0.000       0.096
+wrote_Greek                       0.000     0.000       0.082
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.789       0.363
+special.cite_English.1914.1916    0.462     0.464       0.478
+special.cite_English.1908.1910    0.564     0.562       0.647
+special.cite_English.1902.1904    0.618     0.584       0.711
+special.cite_English.1896.1898    0.595     0.609       0.743
+special.cite_English.1890.1892    0.546     0.536       0.831
+special.cite_English.1884.1886    0.291     0.297       0.783
+special.cite_English.1878.1880    0.179     0.209       0.829
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.148976e-07
+Post (1917-1932): 1.170454e-07
+Post/Pre Ratio: 1.018693 

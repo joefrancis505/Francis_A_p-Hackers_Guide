@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Schäffle
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                 Name   Weight
+          Max Stirner 0.394013
+    Ferdinand Tönnies 0.390836
+                Kafka 0.067394
+           Moses Hess 0.050953
+ Wilhelm von Humboldt 0.046429
+               Hobbes 0.024314
+     Eduard Bernstein 0.001422
+          Machiavelli 0.001267
+         August Bebel 0.001035
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1874.000  1857.969    1593.814
+Socialist                         0.000     0.056       0.138
+Political                         1.000     0.919       0.469
+YearofTranslationtoEnglish     1890.000  1908.284    1828.897
+wrote_English                     0.000     0.032       0.372
+wrote_French                      0.000     0.001       0.097
+wrote_Greek                       0.000     0.001       0.076
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.001       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.963       0.366
+special.cite_English.1914.1916    0.008     0.019       0.478
+special.cite_English.1908.1910    0.016     0.021       0.644
+special.cite_English.1902.1904    0.015     0.016       0.709
+special.cite_English.1896.1898    0.019     0.019       0.740
+special.cite_English.1890.1892    0.043     0.035       0.823
+special.cite_English.1884.1886    0.009     0.016       0.780
+special.cite_English.1878.1880    0.014     0.016       0.823
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.046791e-08
+Post (1917-1932): 1.272465e-08
+Post/Pre Ratio: 1.215587 

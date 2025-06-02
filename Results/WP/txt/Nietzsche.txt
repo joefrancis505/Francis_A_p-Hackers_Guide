@@ -1,0 +1,33 @@
+Synthetic Control Analysis for Nietzsche
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+        Durkheim 0.640524
+ Abraham Lincoln 0.359475
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1883.000  1881.496    1467.495
+Socialist                         0.000     0.000       0.155
+Political                         0.000     0.359       0.588
+YearofTranslationtoEnglish     1896.000  1948.111    1793.010
+wrote_English                     0.000     0.359       0.515
+wrote_French                      0.000     0.641       0.144
+wrote_Greek                       0.000     0.000       0.113
+wrote_Latin                       0.000     0.000       0.082
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      1.000     0.000       0.103
+special.cite_English.1914.1916    2.490     1.008       0.645
+special.cite_English.1908.1910    1.327     1.034       0.900
+special.cite_English.1902.1904    0.578     0.771       1.001
+special.cite_English.1896.1898    0.622     0.659       1.039
+special.cite_English.1890.1892    0.095     0.647       1.170
+special.cite_English.1884.1886    0.005     0.468       1.115
+special.cite_English.1878.1880    0.011     0.349       1.187
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 6.593448e-07
+Post (1917-1932): 4.965835e-07
+Post/Pre Ratio: 0.7531469 

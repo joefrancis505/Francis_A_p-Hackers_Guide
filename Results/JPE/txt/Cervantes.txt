@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Cervantes
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+ Pedro Calderón de la Barca 0.755094
+                Machiavelli 0.065750
+            Abraham Lincoln 0.063080
+                       Hume 0.062365
+                      Plato 0.030581
+                     Newton 0.021335
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1605.000  1579.878    1565.615
+Socialist                         0.000     0.000       0.103
+Political                         0.000     0.223       0.400
+YearofTranslationtoEnglish     1620.000  1687.950    1801.364
+wrote_English                     0.000     0.126       0.395
+wrote_French                      0.000     0.001       0.133
+wrote_Greek                       0.000     0.031       0.077
+wrote_Latin                       0.000     0.021       0.072
+wrote_Italian                     0.000     0.066       0.026
+wrote_Spanish                     1.000     0.755       0.005
+wrote_German                      0.000     0.000       0.287
+special.cite_English.1914.1916    0.813     0.805       0.562
+special.cite_English.1908.1910    0.992     0.983       0.745
+special.cite_English.1902.1904    1.093     1.078       0.812
+special.cite_English.1896.1898    1.012     1.061       0.861
+special.cite_English.1890.1892    1.296     1.249       0.940
+special.cite_English.1884.1886    1.038     1.057       0.885
+special.cite_English.1878.1880    1.177     1.180       0.941
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 3.113552e-07
+Post (1917-1932): 2.472056e-07
+Post/Pre Ratio: 0.7939666 

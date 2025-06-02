@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Dryden
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+       Name   Weight
+ Lord Byron 0.399688
+       Hume 0.331681
+  Augustine 0.212791
+     Goethe 0.055839
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1677.000  1503.393    1469.619
+Socialist                         0.000     0.000       0.155
+Political                         0.000     0.332       0.588
+YearofTranslationtoEnglish     1677.000  1811.603    1795.268
+wrote_English                     1.000     0.731       0.505
+wrote_French                      0.000     0.000       0.144
+wrote_Greek                       0.000     0.000       0.113
+wrote_Latin                       0.000     0.213       0.082
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.056       0.113
+special.cite_English.1914.1916    2.223     2.301       0.648
+special.cite_English.1908.1910    3.100     3.299       0.881
+special.cite_English.1902.1904    3.857     3.905       0.967
+special.cite_English.1896.1898    4.397     3.914       1.000
+special.cite_English.1890.1892    4.230     4.275       1.127
+special.cite_English.1884.1886    4.280     4.359       1.071
+special.cite_English.1878.1880    5.460     5.172       1.131
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 8.733771e-07
+Post (1917-1932): 4.873766e-07
+Post/Pre Ratio: 0.5580369 

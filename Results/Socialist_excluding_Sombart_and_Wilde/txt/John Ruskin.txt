@@ -1,0 +1,27 @@
+Synthetic Control Analysis for John Ruskin
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+      Kropotkin 0.575547
+   Henry George 0.290833
+ Thomas Carlyle 0.133554
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1860.000  1886.624    1859.118
+wrote_English                     1.000     1.000       0.353
+wrote_German                      0.000     0.000       0.353
+YearofTranslationtoEnglish     1860.000  1886.626    1881.765
+special.cite_English.1914.1916    0.200     0.371       0.119
+special.cite_English.1908.1910    0.384     0.385       0.146
+special.cite_English.1902.1904    0.542     0.362       0.130
+special.cite_English.1896.1898    0.332     0.366       0.151
+special.cite_English.1890.1892    0.326     0.354       0.180
+special.cite_English.1884.1886    0.250     0.302       0.149
+special.cite_English.1878.1880    0.214     0.161       0.120
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.361395e-07
+Post (1917-1932): 1.226961e-07
+Post/Pre Ratio: 0.9012522 

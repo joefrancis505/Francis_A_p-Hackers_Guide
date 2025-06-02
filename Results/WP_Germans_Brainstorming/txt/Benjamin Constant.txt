@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Benjamin Constant
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+       de Gouges 0.312302
+         Bastiat 0.305564
+ Charles Fourier 0.175491
+          Hobbes 0.075579
+         Herbart 0.033841
+          Kempis 0.031442
+ Robert Browning 0.022436
+      Lord Acton 0.020431
+     Machiavelli 0.007814
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1816.000  1788.180    1594.214
+Socialist                         0.000     0.177       0.138
+Political                         1.000     0.904       0.469
+YearofTranslationtoEnglish     1819.000  1876.467    1829.386
+wrote_English                     0.000     0.125       0.372
+wrote_French                      1.000     0.796       0.090
+wrote_Greek                       0.000     0.001       0.076
+wrote_Latin                       0.000     0.033       0.062
+wrote_Italian                     0.000     0.008       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.037       0.372
+special.cite_English.1914.1916    0.047     0.057       0.477
+special.cite_English.1908.1910    0.091     0.085       0.643
+special.cite_English.1902.1904    0.111     0.100       0.709
+special.cite_English.1896.1898    0.110     0.112       0.739
+special.cite_English.1890.1892    0.139     0.131       0.823
+special.cite_English.1884.1886    0.099     0.103       0.780
+special.cite_English.1878.1880    0.092     0.115       0.823
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.174875e-08
+Post (1917-1932): 3.058187e-08
+Post/Pre Ratio: 0.7325219 

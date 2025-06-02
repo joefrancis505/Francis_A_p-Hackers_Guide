@@ -1,0 +1,47 @@
+Synthetic Control Analysis for Ralph Waldo Emerson
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+          Henry Fielding 0.741620
+         Herbert Spencer 0.053190
+           Edward Jenner 0.045084
+              Lord Acton 0.035307
+                 Marlowe 0.034455
+                 Thoreau 0.028860
+                 Pasteur 0.011848
+            Walt Whitman 0.008360
+          Francis Pretty 0.006437
+            Edward Haies 0.006072
+          Philip Nichols 0.005585
+                  Kelvin 0.005001
+                  Bigges 0.003517
+           William Roper 0.002373
+           Joseph Lister 0.002059
+ Hans Christian Andersen 0.001995
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1841.000  1757.681    1564.405
+Socialist                         0.000     0.000       0.103
+Political                         0.000     0.090       0.400
+YearofTranslationtoEnglish     1841.000  1758.863    1800.231
+wrote_English                     1.000     0.985       0.390
+wrote_French                      0.000     0.012       0.133
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.001       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.002       0.287
+special.cite_English.1914.1916    0.175     0.182       0.565
+special.cite_English.1908.1910    0.270     0.281       0.749
+special.cite_English.1902.1904    0.370     0.350       0.816
+special.cite_English.1896.1898    0.280     0.280       0.865
+special.cite_English.1890.1892    0.270     0.283       0.945
+special.cite_English.1884.1886    0.320     0.302       0.889
+special.cite_English.1878.1880    0.181     0.207       0.946
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.423817e-08
+Post (1917-1932): 3.782201e-08
+Post/Pre Ratio: 0.6973321 

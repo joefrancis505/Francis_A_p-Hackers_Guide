@@ -1,0 +1,58 @@
+Synthetic Control Analysis for Izaak Walton
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+          William Caxton 0.467633
+     Ralph Waldo Emerson 0.168782
+           Joseph Lister 0.157950
+              Lord Byron 0.077981
+         Otto Pfleiderer 0.015533
+             John Bunyan 0.014248
+                  Kelvin 0.013453
+          Francis Pretty 0.008005
+            Edward Haies 0.007707
+                  Bigges 0.007521
+           Thomas Browne 0.007518
+           William Roper 0.006056
+          Philip Nichols 0.005733
+         Robert Browning 0.004623
+               John Knox 0.003602
+          Henry Fielding 0.003426
+        William Harrison 0.002396
+        Archibald Geikie 0.002363
+           Francis Bacon 0.002209
+           Simon Newcomb 0.002167
+        Oliver Goldsmith 0.002124
+    Percy Bysshe Shelley 0.002122
+           Edward Jenner 0.001918
+                 Marlowe 0.001536
+          Charles Darwin 0.001349
+ Hans Christian Andersen 0.001306
+      William Wordsworth 0.001133
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1653.000  1651.543    1565.369
+Socialist                         0.000     0.001       0.103
+Political                         0.000     0.004       0.400
+YearofTranslationtoEnglish     1653.000  1653.074    1801.195
+wrote_English                     1.000     0.996       0.390
+wrote_French                      0.000     0.001       0.133
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.002       0.287
+special.cite_English.1914.1916    0.096     0.107       0.565
+special.cite_English.1908.1910    0.206     0.203       0.749
+special.cite_English.1902.1904    0.234     0.227       0.816
+special.cite_English.1896.1898    0.250     0.250       0.865
+special.cite_English.1890.1892    0.253     0.251       0.945
+special.cite_English.1884.1886    0.262     0.252       0.889
+special.cite_English.1878.1880    0.228     0.241       0.946
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 3.466574e-08
+Post (1917-1932): 3.76753e-07
+Post/Pre Ratio: 10.86817 

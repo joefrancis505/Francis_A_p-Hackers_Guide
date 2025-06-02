@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Henry George
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+  Edward Bellamy 0.317932
+     Oscar Wilde 0.257845
+ Herbert Spencer 0.210528
+ Abraham Lincoln 0.154174
+ Robert Browning 0.042929
+     Machiavelli 0.016469
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1879.000  1869.006    1593.779
+Socialist                         1.000     0.576       0.131
+Political                         1.000     0.957       0.469
+YearofTranslationtoEnglish     1879.000  1870.801    1828.972
+wrote_English                     1.000     0.983       0.366
+wrote_French                      0.000     0.000       0.097
+wrote_Greek                       0.000     0.000       0.076
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.016       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.000       0.372
+special.cite_English.1914.1916    0.685     0.660       0.473
+special.cite_English.1908.1910    0.743     0.774       0.639
+special.cite_English.1902.1904    0.666     0.712       0.705
+special.cite_English.1896.1898    0.740     0.696       0.735
+special.cite_English.1890.1892    0.861     0.827       0.818
+special.cite_English.1884.1886    0.739     0.723       0.775
+special.cite_English.1878.1880    0.366     0.464       0.821
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.700793e-07
+Post (1917-1932): 2.586323e-07
+Post/Pre Ratio: 1.520657 

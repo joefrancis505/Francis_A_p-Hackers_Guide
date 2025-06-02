@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Ambroise Paré
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+       Jean Racine 0.780514
+  Pierre Corneille 0.125735
+            Malory 0.066976
+             Aesop 0.012325
+ Pliny the Younger 0.010786
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1575.000  1601.255    1565.769
+Socialist                         0.000     0.000       0.103
+Political                         0.000     0.001       0.400
+YearofTranslationtoEnglish     1634.000  1651.875    1801.292
+wrote_English                     0.000     0.069       0.395
+wrote_French                      1.000     0.907       0.128
+wrote_Greek                       0.000     0.013       0.077
+wrote_Latin                       0.000     0.011       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.001       0.287
+special.cite_English.1914.1916    0.012     0.025       0.566
+special.cite_English.1908.1910    0.030     0.036       0.750
+special.cite_English.1902.1904    0.032     0.039       0.817
+special.cite_English.1896.1898    0.071     0.051       0.866
+special.cite_English.1890.1892    0.033     0.039       0.946
+special.cite_English.1884.1886    0.010     0.021       0.890
+special.cite_English.1878.1880    0.009     0.021       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.720382e-08
+Post (1917-1932): 3.077963e-08
+Post/Pre Ratio: 1.789116 

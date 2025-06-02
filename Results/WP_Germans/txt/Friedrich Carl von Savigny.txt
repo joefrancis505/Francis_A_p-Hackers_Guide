@@ -1,0 +1,42 @@
+Synthetic Control Analysis for Friedrich Carl von Savigny
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+    Barthold Georg Niebuhr 0.859614
+ Friedrich Heinrich Jacobi 0.097287
+               Carl Stumpf 0.007930
+            Franz Brentano 0.007745
+            Ludwig Büchner 0.004371
+             Hermann Cohen 0.004093
+                     Rilke 0.003559
+             Eduard Zeller 0.002469
+                 Hölderlin 0.001757
+           Theodor Fontane 0.001571
+                    Thünen 0.001094
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1803.000  1808.810    1591.338
+Socialist                         0.000     0.001       0.141
+Political                         0.000     0.002       0.472
+YearofTranslationtoEnglish     1848.000  1847.835    1829.176
+wrote_English                     0.000     0.002       0.366
+wrote_French                      0.000     0.000       0.099
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.001       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.997       0.373
+special.cite_English.1914.1916    0.001     0.002       0.485
+special.cite_English.1908.1910    0.001     0.003       0.654
+special.cite_English.1902.1904    0.000     0.003       0.721
+special.cite_English.1896.1898    0.000     0.003       0.751
+special.cite_English.1890.1892    0.000     0.003       0.838
+special.cite_English.1884.1886    0.000     0.002       0.793
+special.cite_English.1878.1880    0.001     0.004       0.839
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.609053e-09
+Post (1917-1932): 2.421773e-09
+Post/Pre Ratio: 0.9282193 

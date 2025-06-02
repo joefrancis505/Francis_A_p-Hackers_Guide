@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Aeschylus
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+           Aesop 0.767349
+       Euripides 0.140589
+ Abraham Lincoln 0.064539
+         Herbart 0.026187
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              -456.000  -306.779    1596.089
+Socialist                         0.000     0.000       0.137
+Political                         0.000     0.065       0.479
+YearofTranslationtoEnglish     1663.000  1561.170    1829.075
+wrote_English                     0.000     0.065       0.370
+wrote_French                      0.000     0.000       0.096
+wrote_Greek                       1.000     0.908       0.075
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.027       0.370
+special.cite_English.1914.1916    0.371     0.431       0.479
+special.cite_English.1908.1910    0.616     0.527       0.646
+special.cite_English.1902.1904    0.465     0.433       0.712
+special.cite_English.1896.1898    0.511     0.475       0.743
+special.cite_English.1890.1892    0.432     0.460       0.831
+special.cite_English.1884.1886    0.289     0.322       0.783
+special.cite_English.1878.1880    0.358     0.414       0.828
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 9.988696e-08
+Post (1917-1932): 8.326424e-08
+Post/Pre Ratio: 0.8335847 

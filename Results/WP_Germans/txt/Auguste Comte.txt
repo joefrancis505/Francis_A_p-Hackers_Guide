@@ -1,0 +1,45 @@
+Synthetic Control Analysis for Auguste Comte
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                   Name   Weight
+      Benjamin Constant 0.312622
+               Durkheim 0.148413
+            Dostoyevsky 0.134404
+              de Gouges 0.102972
+          Hermann Lotze 0.087512
+             Lord Byron 0.065907
+                Bastiat 0.033123
+     Friedrich Schiller 0.030337
+            Tocqueville 0.026195
+        Charles Fourier 0.022219
+            John Bunyan 0.012713
+                 Kempis 0.006585
+           Izaak Walton 0.003688
+ Barthold Georg Niebuhr 0.002744
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1844.000  1829.157    1591.049
+Socialist                         0.000     0.024       0.141
+Political                         0.000     0.500       0.472
+YearofTranslationtoEnglish     1865.000  1875.348    1829.056
+wrote_English                     0.000     0.084       0.366
+wrote_French                      1.000     0.647       0.092
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.007       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.126       0.380
+special.cite_English.1914.1916    0.073     0.106       0.484
+special.cite_English.1908.1910    0.127     0.119       0.653
+special.cite_English.1902.1904    0.140     0.139       0.720
+special.cite_English.1896.1898    0.145     0.142       0.750
+special.cite_English.1890.1892    0.145     0.153       0.837
+special.cite_English.1884.1886    0.172     0.166       0.791
+special.cite_English.1878.1880    0.174     0.175       0.837
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 3.033274e-08
+Post (1917-1932): 4.317762e-08
+Post/Pre Ratio: 1.423466 

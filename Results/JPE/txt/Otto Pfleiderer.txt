@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Otto Pfleiderer
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+ William Graham Sumner 0.336527
+         Edward Jenner 0.283372
+           Carl Stumpf 0.210857
+        Philip Nichols 0.067960
+  Percy Bysshe Shelley 0.056662
+       Hippolyte Taine 0.042427
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1881.000  1842.135    1564.200
+Socialist                         0.000     0.000       0.103
+Political                         0.000     0.337       0.400
+YearofTranslationtoEnglish     1890.000  1864.111    1799.979
+wrote_English                     1.000     0.746       0.390
+wrote_French                      0.000     0.043       0.133
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.212       0.287
+special.cite_English.1914.1916    0.004     0.019       0.566
+special.cite_English.1908.1910    0.037     0.023       0.750
+special.cite_English.1902.1904    0.011     0.017       0.817
+special.cite_English.1896.1898    0.009     0.033       0.866
+special.cite_English.1890.1892    0.017     0.017       0.947
+special.cite_English.1884.1886    0.013     0.022       0.890
+special.cite_English.1878.1880    0.005     0.014       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.275578e-08
+Post (1917-1932): 2.342723e-08
+Post/Pre Ratio: 1.836597 

@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Karl Marx
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+          Rodbertus 0.532188
+ Ferdinand Lassalle 0.353485
+    Abraham Lincoln 0.069631
+      Martin Luther 0.022690
+        Oscar Wilde 0.012234
+          Nietzsche 0.008698
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1867.000  1848.390    1467.660
+Socialist                         1.000     0.898       0.144
+Political                         1.000     0.968       0.577
+YearofTranslationtoEnglish     1887.000  1888.757    1793.103
+wrote_English                     0.000     0.082       0.515
+wrote_French                      0.000     0.000       0.144
+wrote_Greek                       0.000     0.000       0.113
+wrote_Latin                       0.000     0.000       0.082
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      1.000     0.917       0.103
+special.cite_English.1914.1916    0.216     0.222       0.668
+special.cite_English.1908.1910    0.291     0.258       0.910
+special.cite_English.1902.1904    0.162     0.183       1.005
+special.cite_English.1896.1898    0.177     0.182       1.044
+special.cite_English.1890.1892    0.206     0.216       1.169
+special.cite_English.1884.1886    0.176     0.149       1.114
+special.cite_English.1878.1880    0.077     0.099       1.186
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.08938e-08
+Post (1917-1932): 2.524223e-07
+Post/Pre Ratio: 4.959784 

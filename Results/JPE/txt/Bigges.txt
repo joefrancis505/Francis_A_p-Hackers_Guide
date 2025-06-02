@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Bigges
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+               Edward Haies 0.736408
+             Francis Pretty 0.230210
+             Philip Nichols 0.004453
+              William Roper 0.001741
+ Pedro Calderón de la Barca 0.001516
+                Jean Racine 0.001104
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1586.000  1585.753    1565.713
+Socialist                         0.000     0.001       0.103
+Political                         0.000     0.003       0.400
+YearofTranslationtoEnglish     1586.000  1589.101    1801.538
+wrote_English                     1.000     0.978       0.390
+wrote_French                      0.000     0.004       0.133
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.001       0.072
+wrote_Italian                     0.000     0.001       0.026
+wrote_Spanish                     0.000     0.002       0.010
+wrote_German                      0.000     0.014       0.287
+special.cite_English.1914.1916    0.004     0.005       0.566
+special.cite_English.1908.1910    0.008     0.007       0.750
+special.cite_English.1902.1904    0.007     0.009       0.817
+special.cite_English.1896.1898    0.006     0.008       0.866
+special.cite_English.1890.1892    0.011     0.008       0.947
+special.cite_English.1884.1886    0.004     0.008       0.890
+special.cite_English.1878.1880    0.004     0.008       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.212579e-09
+Post (1917-1932): 8.824364e-09
+Post/Pre Ratio: 1.692898 

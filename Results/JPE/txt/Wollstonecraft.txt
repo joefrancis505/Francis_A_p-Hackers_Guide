@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Wollstonecraft
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+ William Godwin 0.745663
+ Edward Bellamy 0.205919
+        Bentham 0.035649
+        Pasteur 0.009502
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1792.000  1810.851    1564.656
+Socialist                         0.000     0.206       0.103
+Political                         1.000     0.989       0.395
+YearofTranslationtoEnglish     1792.000  1812.975    1800.482
+wrote_English                     1.000     0.989       0.390
+wrote_French                      0.000     0.010       0.133
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.001       0.287
+special.cite_English.1914.1916    0.101     0.105       0.565
+special.cite_English.1908.1910    0.120     0.131       0.750
+special.cite_English.1902.1904    0.081     0.127       0.817
+special.cite_English.1896.1898    0.160     0.158       0.865
+special.cite_English.1890.1892    0.213     0.195       0.946
+special.cite_English.1884.1886    0.272     0.239       0.889
+special.cite_English.1878.1880    0.178     0.185       0.946
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.076571e-08
+Post (1917-1932): 3.246052e-08
+Post/Pre Ratio: 0.6394182 

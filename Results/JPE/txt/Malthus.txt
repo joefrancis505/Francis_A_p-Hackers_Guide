@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Malthus
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+    William Godwin 0.539776
+   Herbert Spencer 0.410414
+   Auberon Herbert 0.017479
+     Joseph Lister 0.008658
+           Pasteur 0.002214
+ Pliny the Younger 0.001881
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1798.000  1813.596    1564.626
+Socialist                         0.000     0.003       0.103
+Political                         1.000     0.974       0.395
+YearofTranslationtoEnglish     1798.000  1819.807    1800.451
+wrote_English                     1.000     0.981       0.390
+wrote_French                      0.000     0.006       0.133
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.003       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.008       0.287
+special.cite_English.1914.1916    0.343     0.342       0.564
+special.cite_English.1908.1910    0.452     0.494       0.748
+special.cite_English.1902.1904    0.687     0.672       0.814
+special.cite_English.1896.1898    0.645     0.658       0.863
+special.cite_English.1890.1892    0.763     0.758       0.943
+special.cite_English.1884.1886    0.986     0.964       0.885
+special.cite_English.1878.1880    0.615     0.613       0.944
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.59404e-07
+Post (1917-1932): 3.714589e-07
+Post/Pre Ratio: 2.330299 

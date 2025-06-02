@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Alessandro Manzoni
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+                 Rilke 0.402381
+       Dante Alighieri 0.259770
+       Otto Pfleiderer 0.103216
+       Hippolyte Taine 0.103205
+ William Graham Sumner 0.090944
+         Hermann Cohen 0.025704
+           Dostoyevsky 0.012265
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1827.000  1744.770    1564.477
+Socialist                         0.000     0.001       0.103
+Political                         0.000     0.092       0.400
+YearofTranslationtoEnglish     1828.000  1877.525    1800.297
+wrote_English                     0.000     0.195       0.395
+wrote_French                      0.000     0.104       0.133
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     1.000     0.260       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.429       0.287
+special.cite_English.1914.1916    0.006     0.032       0.566
+special.cite_English.1908.1910    0.012     0.036       0.750
+special.cite_English.1902.1904    0.014     0.037       0.817
+special.cite_English.1896.1898    0.014     0.029       0.866
+special.cite_English.1890.1892    0.012     0.038       0.947
+special.cite_English.1884.1886    0.012     0.023       0.890
+special.cite_English.1878.1880    0.017     0.014       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.978512e-08
+Post (1917-1932): 4.283081e-08
+Post/Pre Ratio: 2.164799 

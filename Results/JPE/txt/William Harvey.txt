@@ -1,0 +1,37 @@
+Synthetic Control Analysis for William Harvey
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+       Carl Stumpf 0.371868
+       John Calvin 0.342508
+ Pliny the Younger 0.103271
+        Copernicus 0.094736
+           Leibniz 0.045401
+          Durkheim 0.035609
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1628.000  1526.221    1565.497
+Socialist                         0.000     0.001       0.103
+Political                         0.000     0.003       0.400
+YearofTranslationtoEnglish     1909.000  1831.482    1799.882
+wrote_English                     0.000     0.002       0.395
+wrote_French                      0.000     0.037       0.133
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       1.000     0.586       0.067
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.375       0.287
+special.cite_English.1914.1916    0.106     0.112       0.565
+special.cite_English.1908.1910    0.136     0.152       0.750
+special.cite_English.1902.1904    0.126     0.134       0.817
+special.cite_English.1896.1898    0.139     0.134       0.865
+special.cite_English.1890.1892    0.115     0.149       0.946
+special.cite_English.1884.1886    0.111     0.140       0.890
+special.cite_English.1878.1880    0.186     0.142       0.946
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 3.165036e-08
+Post (1917-1932): 3.15065e-08
+Post/Pre Ratio: 0.9954545 

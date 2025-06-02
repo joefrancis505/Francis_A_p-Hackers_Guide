@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Ferdinand Lassalle
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+             Name   Weight
+ Eduard Bernstein 0.294065
+       Moses Hess 0.291352
+        Rodbertus 0.287109
+          Blanqui 0.020115
+         Proudhon 0.016626
+          Bakunin 0.014930
+        Karl Marx 0.013952
+   Edward Bellamy 0.012924
+      Robert Owen 0.012241
+         Sismondi 0.011961
+  Charles Fourier 0.007523
+        Kropotkin 0.006012
+      John Ruskin 0.005816
+    Lujo Brentano 0.004597
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1863.000  1862.710    1856.000
+wrote_English                     0.000     0.042       0.400
+wrote_German                      1.000     0.886       0.267
+YearofTranslationtoEnglish     1884.000  1884.912    1880.133
+special.cite_English.1914.1916    0.022     0.030       0.099
+special.cite_English.1908.1910    0.037     0.035       0.139
+special.cite_English.1902.1904    0.024     0.026       0.137
+special.cite_English.1896.1898    0.034     0.035       0.142
+special.cite_English.1890.1892    0.056     0.054       0.165
+special.cite_English.1884.1886    0.033     0.034       0.133
+special.cite_English.1878.1880    0.027     0.026       0.125
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.227975e-08
+Post (1917-1932): 1.606004e-08
+Post/Pre Ratio: 1.307848 

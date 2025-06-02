@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Hobbes
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+         David Ricardo 0.360202
+        Edmund Spenser 0.341315
+          Edward Haies 0.266086
+ William Graham Sumner 0.013751
+                 Aesop 0.006008
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1651.000  1661.990    1565.379
+Socialist                         0.000     0.002       0.103
+Political                         1.000     0.722       0.395
+YearofTranslationtoEnglish     1651.000  1675.896    1801.205
+wrote_English                     1.000     0.987       0.390
+wrote_French                      0.000     0.002       0.133
+wrote_Greek                       0.000     0.007       0.077
+wrote_Latin                       0.000     0.001       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.004       0.287
+special.cite_English.1914.1916    0.031     0.032       0.566
+special.cite_English.1908.1910    0.047     0.049       0.750
+special.cite_English.1902.1904    0.050     0.056       0.817
+special.cite_English.1896.1898    0.059     0.053       0.866
+special.cite_English.1890.1892    0.042     0.059       0.946
+special.cite_English.1884.1886    0.054     0.060       0.890
+special.cite_English.1878.1880    0.051     0.052       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.947345e-08
+Post (1917-1932): 1.599749e-08
+Post/Pre Ratio: 0.8215029 

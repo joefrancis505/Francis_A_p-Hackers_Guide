@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Ferdinand Lassalle
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+             Name   Weight
+ Eduard Bernstein 0.324130
+       Moses Hess 0.313127
+        Rodbertus 0.309151
+        Karl Marx 0.035432
+     August Bebel 0.008763
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1863.000  1862.087    1564.292
+Socialist                         1.000     0.992       0.097
+Political                         1.000     0.995       0.395
+YearofTranslationtoEnglish     1884.000  1884.046    1800.010
+wrote_English                     0.000     0.004       0.395
+wrote_French                      0.000     0.001       0.133
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.001       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      1.000     0.993       0.282
+special.cite_English.1914.1916    0.022     0.031       0.566
+special.cite_English.1908.1910    0.037     0.034       0.750
+special.cite_English.1902.1904    0.024     0.023       0.817
+special.cite_English.1896.1898    0.034     0.031       0.866
+special.cite_English.1890.1892    0.056     0.049       0.946
+special.cite_English.1884.1886    0.033     0.031       0.890
+special.cite_English.1878.1880    0.027     0.017       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.180058e-08
+Post (1917-1932): 1.858591e-08
+Post/Pre Ratio: 1.575 

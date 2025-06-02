@@ -1,0 +1,40 @@
+Synthetic Control Analysis for William Penn
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+ Edmund Spenser 0.406395
+         Hobbes 0.237560
+         Kelvin 0.103571
+       Voltaire 0.067746
+      Nietzsche 0.060824
+         Dryden 0.056467
+        Pasteur 0.029308
+        Bentham 0.024708
+         Newton 0.008638
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1682.000  1676.680    1565.221
+Socialist                         0.000     0.001       0.103
+Political                         1.000     0.739       0.395
+YearofTranslationtoEnglish     1682.000  1693.848    1801.046
+wrote_English                     1.000     0.831       0.390
+wrote_French                      0.000     0.097       0.133
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.009       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.062       0.287
+special.cite_English.1914.1916    0.748     0.745       0.562
+special.cite_English.1908.1910    0.987     0.987       0.745
+special.cite_English.1902.1904    1.021     1.025       0.812
+special.cite_English.1896.1898    1.137     1.131       0.860
+special.cite_English.1890.1892    0.889     0.899       0.942
+special.cite_English.1884.1886    1.031     1.027       0.885
+special.cite_English.1878.1880    0.931     0.928       0.943
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.005645e-07
+Post (1917-1932): 2.011356e-07
+Post/Pre Ratio: 1.002847 

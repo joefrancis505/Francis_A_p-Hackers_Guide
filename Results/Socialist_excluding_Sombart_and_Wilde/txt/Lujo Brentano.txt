@@ -1,0 +1,28 @@
+Synthetic Control Analysis for Lujo Brentano
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+             Name   Weight
+  Charles Fourier 0.568642
+ Eduard Bernstein 0.300948
+       Moses Hess 0.094336
+   Edward Bellamy 0.032701
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1871.000  1841.444    1858.471
+wrote_English                     1.000     0.034       0.353
+wrote_German                      0.000     0.396       0.353
+YearofTranslationtoEnglish     1870.000  1897.736    1881.176
+special.cite_English.1914.1916    0.008     0.010       0.130
+special.cite_English.1908.1910    0.005     0.012       0.169
+special.cite_English.1902.1904    0.004     0.010       0.162
+special.cite_English.1896.1898    0.005     0.011       0.171
+special.cite_English.1890.1892    0.013     0.017       0.199
+special.cite_English.1884.1886    0.006     0.011       0.163
+special.cite_English.1878.1880    0.004     0.010       0.133
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 6.846359e-09
+Post (1917-1932): 6.695589e-09
+Post/Pre Ratio: 0.9779781 

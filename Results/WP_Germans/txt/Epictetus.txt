@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Epictetus
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+           Aesop 0.508890
+      Thucydides 0.160460
+ Robert Browning 0.146874
+ Marcus Aurelius 0.092710
+       Aeschylus 0.054520
+           Kafka 0.035858
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication               135.000   -10.653    1603.085
+Socialist                         0.000     0.000       0.141
+Political                         0.000     0.161       0.472
+YearofTranslationtoEnglish     1750.000  1599.945    1829.866
+wrote_English                     0.000     0.147       0.366
+wrote_French                      0.000     0.000       0.099
+wrote_Greek                       1.000     0.817       0.070
+wrote_Latin                       0.000     0.000       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.036       0.380
+special.cite_English.1914.1916    0.284     0.300       0.483
+special.cite_English.1908.1910    0.391     0.411       0.651
+special.cite_English.1902.1904    0.432     0.398       0.718
+special.cite_English.1896.1898    0.408     0.469       0.748
+special.cite_English.1890.1892    0.691     0.583       0.833
+special.cite_English.1884.1886    0.382     0.409       0.790
+special.cite_English.1878.1880    0.406     0.446       0.836
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 9.629034e-08
+Post (1917-1932): 1.168031e-07
+Post/Pre Ratio: 1.21303 

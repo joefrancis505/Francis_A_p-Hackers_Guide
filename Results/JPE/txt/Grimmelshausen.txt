@@ -1,0 +1,46 @@
+Synthetic Control Analysis for Grimmelshausen
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+ Friedrich Carl von Savigny 0.449478
+  Friedrich Heinrich Jacobi 0.447718
+          Pliny the Younger 0.042393
+                      Aesop 0.010194
+     Barthold Georg Niebuhr 0.008444
+             E T A Hoffmann 0.003218
+                  Hölderlin 0.002269
+                     Thünen 0.001807
+           Ludwig Feuerbach 0.001713
+                      Külpe 0.001571
+              Eduard Zeller 0.001466
+         Friedrich Schiller 0.001437
+             Ludwig Büchner 0.001394
+                 Moses Hess 0.001196
+            Theodor Fontane 0.001134
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1668.000  1687.042    1565.292
+Socialist                         0.000     0.004       0.103
+Political                         0.000     0.011       0.400
+YearofTranslationtoEnglish     1912.000  1912.309    1799.867
+wrote_English                     0.000     0.004       0.395
+wrote_French                      0.000     0.003       0.133
+wrote_Greek                       0.000     0.011       0.077
+wrote_Latin                       0.000     0.043       0.072
+wrote_Italian                     0.000     0.001       0.026
+wrote_Spanish                     0.000     0.001       0.010
+wrote_German                      1.000     0.938       0.282
+special.cite_English.1914.1916    0.009     0.009       0.566
+special.cite_English.1908.1910    0.010     0.012       0.750
+special.cite_English.1902.1904    0.011     0.011       0.817
+special.cite_English.1896.1898    0.017     0.012       0.866
+special.cite_English.1890.1892    0.006     0.013       0.947
+special.cite_English.1884.1886    0.010     0.010       0.890
+special.cite_English.1878.1880    0.002     0.012       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 7.475484e-09
+Post (1917-1932): 6.417975e-08
+Post/Pre Ratio: 8.585365 

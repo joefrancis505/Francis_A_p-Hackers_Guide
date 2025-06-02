@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Euripides
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+    Aristophanes 0.838847
+          Cicero 0.072838
+       Nietzsche 0.044454
+     Machiavelli 0.019401
+           Plato 0.013203
+ Abraham Lincoln 0.011199
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              -406.000  -198.506    1491.093
+Socialist                         0.000     0.000       0.155
+Political                         0.000     0.117       0.588
+YearofTranslationtoEnglish     1781.000  1683.653    1794.196
+wrote_English                     0.000     0.011       0.515
+wrote_French                      0.000     0.000       0.144
+wrote_Greek                       1.000     0.852       0.103
+wrote_Latin                       0.000     0.073       0.082
+wrote_Italian                     0.000     0.019       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.044       0.113
+special.cite_English.1914.1916    1.170     1.156       0.658
+special.cite_English.1908.1910    1.650     1.634       0.896
+special.cite_English.1902.1904    1.587     1.626       0.991
+special.cite_English.1896.1898    1.997     1.857       1.025
+special.cite_English.1890.1892    2.130     2.061       1.149
+special.cite_English.1884.1886    1.463     1.738       1.100
+special.cite_English.1878.1880    2.203     2.211       1.164
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.142743e-07
+Post (1917-1932): 1.353263e-07
+Post/Pre Ratio: 0.6315565 

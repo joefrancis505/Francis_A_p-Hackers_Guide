@@ -1,0 +1,44 @@
+Synthetic Control Analysis for Dante Alighieri
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+         Alessandro Manzoni 0.695341
+          Pliny the Younger 0.104551
+                      Aesop 0.069464
+                     Malory 0.055167
+                Machiavelli 0.017349
+                    Cellini 0.011180
+              Ambroise Paré 0.009825
+                    Marlowe 0.006243
+                  Nietzsche 0.005329
+            Abraham Lincoln 0.005027
+                     Kelvin 0.003549
+ Pedro Calderón de la Barca 0.001394
+           Pierre Corneille 0.001066
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1320.000  1424.845    1567.077
+Socialist                         0.000     0.001       0.103
+Political                         0.000     0.027       0.400
+YearofTranslationtoEnglish     1785.000  1785.959    1800.518
+wrote_English                     0.000     0.077       0.395
+wrote_French                      0.000     0.014       0.133
+wrote_Greek                       0.000     0.070       0.077
+wrote_Latin                       0.000     0.105       0.072
+wrote_Italian                     1.000     0.724       0.021
+wrote_Spanish                     0.000     0.002       0.010
+wrote_German                      0.000     0.008       0.287
+special.cite_English.1914.1916    0.089     0.086       0.566
+special.cite_English.1908.1910    0.108     0.108       0.750
+special.cite_English.1902.1904    0.125     0.108       0.817
+special.cite_English.1896.1898    0.099     0.117       0.866
+special.cite_English.1890.1892    0.118     0.108       0.946
+special.cite_English.1884.1886    0.072     0.069       0.890
+special.cite_English.1878.1880    0.046     0.076       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.563341e-08
+Post (1917-1932): 3.773546e-08
+Post/Pre Ratio: 1.47212 

@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Oliver Wendell Holmes
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+       Auberon Herbert 0.737826
+       Herbert Spencer 0.150266
+       Abraham Lincoln 0.087776
+              Voltaire 0.007865
+ William Graham Sumner 0.005969
+           Carl Stumpf 0.005416
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1895.000  1875.968    1564.128
+Socialist                         0.000     0.002       0.103
+Political                         1.000     0.992       0.395
+YearofTranslationtoEnglish     1895.000  1878.887    1799.954
+wrote_English                     1.000     0.984       0.390
+wrote_French                      0.000     0.008       0.133
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.007       0.287
+special.cite_English.1914.1916    0.312     0.330       0.564
+special.cite_English.1908.1910    0.433     0.447       0.748
+special.cite_English.1902.1904    0.453     0.459       0.815
+special.cite_English.1896.1898    0.528     0.438       0.863
+special.cite_English.1890.1892    0.570     0.500       0.944
+special.cite_English.1884.1886    0.510     0.512       0.888
+special.cite_English.1878.1880    0.281     0.345       0.946
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 9.944778e-08
+Post (1917-1932): 5.925213e-08
+Post/Pre Ratio: 0.5958116 

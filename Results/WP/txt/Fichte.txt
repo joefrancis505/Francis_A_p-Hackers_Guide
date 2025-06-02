@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Fichte
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+     Dostoyevsky 0.535206
+   Martin Luther 0.212019
+         Bentham 0.148510
+           Plato 0.037161
+          Goethe 0.021355
+  Friedrich List 0.021319
+       Rodbertus 0.009254
+ Robert Browning 0.007855
+        Durkheim 0.005297
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1794.000  1692.508    1468.412
+Socialist                         0.000     0.009       0.155
+Political                         0.000     0.217       0.588
+YearofTranslationtoEnglish     1868.000  1852.513    1793.299
+wrote_English                     0.000     0.157       0.515
+wrote_French                      0.000     0.005       0.144
+wrote_Greek                       0.000     0.037       0.113
+wrote_Latin                       0.000     0.000       0.082
+wrote_Italian                     0.000     0.001       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      1.000     0.265       0.103
+special.cite_English.1914.1916    0.586     0.543       0.664
+special.cite_English.1908.1910    0.577     0.686       0.907
+special.cite_English.1902.1904    0.555     0.713       1.001
+special.cite_English.1896.1898    0.804     0.787       1.037
+special.cite_English.1890.1892    1.054     0.947       1.160
+special.cite_English.1884.1886    1.089     1.027       1.104
+special.cite_English.1878.1880    0.925     0.936       1.178
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.999634e-07
+Post (1917-1932): 2.719316e-07
+Post/Pre Ratio: 1.359907 

@@ -1,0 +1,57 @@
+Synthetic Control Analysis for Thomas Mann
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+                      Rilke 0.766088
+                      Kafka 0.030631
+             Franz Brentano 0.027879
+                 Lord Acton 0.019443
+              Hermann Cohen 0.017556
+                 Windelband 0.013399
+                 Ebbinghaus 0.010744
+                      Külpe 0.008300
+              Eduard Zeller 0.008005
+            Theodor Fontane 0.007238
+           Ludwig Feuerbach 0.007002
+         Friedrich Schiller 0.006955
+             E T A Hoffmann 0.005471
+     Barthold Georg Niebuhr 0.005073
+                    Dilthey 0.004868
+ Friedrich Carl von Savigny 0.004763
+                      Frege 0.004528
+  Friedrich Heinrich Jacobi 0.004460
+                  Hölderlin 0.003958
+                     Thünen 0.003148
+                    Scheler 0.003036
+        Eduard von Hartmann 0.002770
+             Grimmelshausen 0.001764
+                      Wundt 0.001154
+             Gustav Freytag 0.001084
+                  Nietzsche 0.001025
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1901.000  1894.400    1593.628
+Socialist                         0.000     0.005       0.138
+Political                         0.000     0.035       0.476
+YearofTranslationtoEnglish     1924.000  1924.423    1828.662
+wrote_English                     0.000     0.031       0.372
+wrote_French                      0.000     0.003       0.097
+wrote_Greek                       0.000     0.002       0.076
+wrote_Latin                       0.000     0.002       0.062
+wrote_Italian                     0.000     0.001       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.962       0.366
+special.cite_English.1914.1916    0.029     0.030       0.478
+special.cite_English.1908.1910    0.027     0.026       0.643
+special.cite_English.1902.1904    0.036     0.031       0.709
+special.cite_English.1896.1898    0.020     0.023       0.740
+special.cite_English.1890.1892    0.035     0.034       0.824
+special.cite_English.1884.1886    0.014     0.019       0.780
+special.cite_English.1878.1880    0.012     0.018       0.823
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 7.899873e-09
+Post (1917-1932): 6.667475e-08
+Post/Pre Ratio: 8.439977 

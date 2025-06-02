@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Epictetus
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+             Aesop 0.339760
+   Robert Browning 0.228813
+             Kafka 0.222618
+         Sophocles 0.119771
+    Schleiermacher 0.043780
+          Pericles 0.028067
+ Pliny the Younger 0.016160
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication               135.000   682.567    1592.041
+Socialist                         0.000     0.000       0.137
+Political                         0.000     0.029       0.479
+YearofTranslationtoEnglish     1750.000  1713.856    1828.479
+wrote_English                     0.000     0.229       0.370
+wrote_French                      0.000     0.000       0.096
+wrote_Greek                       1.000     0.488       0.075
+wrote_Latin                       0.000     0.016       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.267       0.370
+special.cite_English.1914.1916    0.284     0.289       0.479
+special.cite_English.1908.1910    0.391     0.380       0.648
+special.cite_English.1902.1904    0.432     0.424       0.712
+special.cite_English.1896.1898    0.408     0.451       0.744
+special.cite_English.1890.1892    0.691     0.643       0.830
+special.cite_English.1884.1886    0.382     0.388       0.782
+special.cite_English.1878.1880    0.406     0.411       0.828
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 7.528134e-08
+Post (1917-1932): 9.769519e-08
+Post/Pre Ratio: 1.297734 

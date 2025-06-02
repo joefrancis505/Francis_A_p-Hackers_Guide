@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Sophocles
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+         Name   Weight
+ Aristophanes 0.915627
+        Aesop 0.031454
+    Aristotle 0.026808
+        Plato 0.016168
+       Goethe 0.005607
+    Euripides 0.002144
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              -405.000  -374.150    1595.740
+Socialist                         0.000     0.000       0.137
+Political                         0.000     0.044       0.479
+YearofTranslationtoEnglish     1649.000  1651.368    1829.171
+wrote_English                     0.000     0.001       0.370
+wrote_French                      0.000     0.000       0.096
+wrote_Greek                       1.000     0.992       0.075
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.006       0.370
+special.cite_English.1914.1916    0.813     0.902       0.475
+special.cite_English.1908.1910    1.343     1.383       0.641
+special.cite_English.1902.1904    1.527     1.433       0.705
+special.cite_English.1896.1898    1.527     1.635       0.736
+special.cite_English.1890.1892    1.863     1.831       0.822
+special.cite_English.1884.1886    1.603     1.569       0.774
+special.cite_English.1878.1880    2.090     1.834       0.816
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.657046e-07
+Post (1917-1932): 1.452201e-07
+Post/Pre Ratio: 0.8763793 

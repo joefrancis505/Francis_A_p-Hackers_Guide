@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Herbert Spencer
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+         Malthus 0.620308
+         Thoreau 0.131906
+ Robert Browning 0.090218
+          Goethe 0.059622
+        Voltaire 0.034737
+           Plato 0.032504
+    Henry George 0.030699
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1851.000  1738.759    1580.288
+Socialist                         0.000     0.031       0.137
+Political                         1.000     0.718       0.473
+YearofTranslationtoEnglish     1851.000  1817.447    1827.788
+wrote_English                     1.000     0.873       0.363
+wrote_French                      0.000     0.035       0.096
+wrote_Greek                       0.000     0.033       0.082
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.060       0.370
+special.cite_English.1914.1916    0.737     0.818       0.476
+special.cite_English.1908.1910    1.090     1.137       0.643
+special.cite_English.1902.1904    1.523     1.475       0.705
+special.cite_English.1896.1898    1.490     1.455       0.737
+special.cite_English.1890.1892    1.713     1.685       0.823
+special.cite_English.1884.1886    2.107     1.848       0.771
+special.cite_English.1878.1880    1.310     1.528       0.822
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.050248e-07
+Post (1917-1932): 5.503932e-07
+Post/Pre Ratio: 2.68452 

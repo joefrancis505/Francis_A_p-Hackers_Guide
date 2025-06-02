@@ -1,0 +1,52 @@
+Synthetic Control Analysis for Hamann
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+  Friedrich Heinrich Jacobi 0.748336
+                      Wundt 0.056672
+              Martin Luther 0.053332
+             Grimmelshausen 0.036529
+                     Herder 0.034660
+                  Nietzsche 0.009423
+                Carl Stumpf 0.007047
+                  Hölderlin 0.005236
+             Franz Brentano 0.004665
+              Hermann Cohen 0.002932
+                     Goethe 0.002240
+                     Thünen 0.002133
+                      Rilke 0.001963
+ Friedrich Carl von Savigny 0.001866
+                 Ebbinghaus 0.001731
+              Eduard Zeller 0.001668
+             Ludwig Büchner 0.001663
+                      Frege 0.001529
+            Theodor Fontane 0.001362
+     Barthold Georg Niebuhr 0.001346
+                     Simmel 0.001115
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1759.000  1771.780    1580.918
+Socialist                         0.000     0.004       0.137
+Political                         0.000     0.010       0.479
+YearofTranslationtoEnglish     1967.000  1964.066    1826.993
+wrote_English                     0.000     0.004       0.370
+wrote_French                      0.000     0.001       0.096
+wrote_Greek                       0.000     0.001       0.082
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.993       0.363
+special.cite_English.1914.1916    0.108     0.109       0.480
+special.cite_English.1908.1910    0.121     0.117       0.650
+special.cite_English.1902.1904    0.120     0.121       0.715
+special.cite_English.1896.1898    0.113     0.115       0.746
+special.cite_English.1890.1892    0.115     0.115       0.834
+special.cite_English.1884.1886    0.119     0.120       0.784
+special.cite_English.1878.1880    0.101     0.100       0.830
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.881768e-08
+Post (1917-1932): 6.565985e-08
+Post/Pre Ratio: 2.278457 

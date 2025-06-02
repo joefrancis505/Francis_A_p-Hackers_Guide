@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Hume
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+             Name   Weight
+           Cicero 0.463307
+          Marlowe 0.185382
+         Rousseau 0.139372
+           Dryden 0.107656
+           Goethe 0.067415
+ Thomas Jefferson 0.028767
+        Aristotle 0.008051
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1763.000   867.499    1468.732
+Socialist                         0.000     0.000       0.155
+Political                         1.000     0.640       0.577
+YearofTranslationtoEnglish     1763.000  1787.524    1794.381
+wrote_English                     1.000     0.322       0.505
+wrote_French                      0.000     0.139       0.144
+wrote_Greek                       0.000     0.008       0.113
+wrote_Latin                       0.000     0.463       0.082
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.067       0.113
+special.cite_English.1914.1916    2.870     3.137       0.641
+special.cite_English.1908.1910    4.183     4.382       0.870
+special.cite_English.1902.1904    5.257     4.701       0.953
+special.cite_English.1896.1898    4.683     4.952       0.997
+special.cite_English.1890.1892    5.603     5.704       1.113
+special.cite_English.1884.1886    5.017     5.327       1.064
+special.cite_English.1878.1880    6.987     6.885       1.115
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.576841e-07
+Post (1917-1932): 5.949749e-07
+Post/Pre Ratio: 1.066867 

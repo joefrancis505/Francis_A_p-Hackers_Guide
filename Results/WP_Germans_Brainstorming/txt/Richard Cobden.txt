@@ -1,0 +1,46 @@
+Synthetic Control Analysis for Richard Cobden
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+           Nassau Senior 0.334259
+   William Graham Sumner 0.254681
+ James Fitzjames Stephen 0.124883
+          Jonathan Swift 0.088209
+              Lord Acton 0.081723
+                  Hobbes 0.030430
+        John Stuart Mill 0.024843
+         Herbert Spencer 0.012387
+           David Ricardo 0.010671
+                    Hume 0.008291
+              Adam Smith 0.006535
+          William Godwin 0.003047
+                 Malthus 0.002197
+            John Woolman 0.001338
+          Wollstonecraft 0.001250
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1835.000  1832.479    1594.083
+Socialist                         0.000     0.002       0.138
+Political                         1.000     0.994       0.469
+YearofTranslationtoEnglish     1835.000  1835.064    1829.276
+wrote_English                     1.000     0.993       0.366
+wrote_French                      0.000     0.001       0.097
+wrote_Greek                       0.000     0.001       0.076
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.004       0.372
+special.cite_English.1914.1916    0.065     0.079       0.477
+special.cite_English.1908.1910    0.128     0.122       0.643
+special.cite_English.1902.1904    0.160     0.157       0.708
+special.cite_English.1896.1898    0.134     0.129       0.739
+special.cite_English.1890.1892    0.130     0.139       0.823
+special.cite_English.1884.1886    0.150     0.144       0.779
+special.cite_English.1878.1880    0.166     0.155       0.822
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.878362e-08
+Post (1917-1932): 2.846099e-08
+Post/Pre Ratio: 0.9887912 

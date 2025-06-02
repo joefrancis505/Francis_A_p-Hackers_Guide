@@ -1,0 +1,30 @@
+Synthetic Control Analysis for Proudhon
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+       Karl Marx 0.424439
+         Blanqui 0.201441
+        Sismondi 0.143781
+       Rodbertus 0.110485
+  Thomas Carlyle 0.096550
+ Charles Fourier 0.021656
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1840.000  1853.247    1857.533
+wrote_English                     0.000     0.097       0.400
+wrote_German                      0.000     0.536       0.333
+YearofTranslationtoEnglish     1890.000  1894.820    1879.733
+special.cite_English.1914.1916    0.118     0.142       0.093
+special.cite_English.1908.1910    0.198     0.198       0.128
+special.cite_English.1902.1904    0.131     0.155       0.130
+special.cite_English.1896.1898    0.223     0.175       0.129
+special.cite_English.1890.1892    0.195     0.217       0.155
+special.cite_English.1884.1886    0.224     0.203       0.120
+special.cite_English.1878.1880    0.159     0.178       0.116
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.170134e-08
+Post (1917-1932): 8.628453e-08
+Post/Pre Ratio: 1.668903 

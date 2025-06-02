@@ -1,0 +1,34 @@
+Synthetic Control Analysis for Bastiat
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+ Benjamin Constant 0.567781
+         de Gouges 0.284880
+       Tocqueville 0.140400
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1850.000  1811.239    1564.359
+Socialist                         0.000     0.001       0.103
+Political                         1.000     0.996       0.395
+YearofTranslationtoEnglish     1867.000  1866.931    1800.097
+wrote_English                     0.000     0.003       0.395
+wrote_French                      1.000     0.995       0.128
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.002       0.287
+special.cite_English.1914.1916    0.049     0.054       0.566
+special.cite_English.1908.1910    0.084     0.101       0.750
+special.cite_English.1902.1904    0.068     0.116       0.817
+special.cite_English.1896.1898    0.088     0.144       0.866
+special.cite_English.1890.1892    0.144     0.142       0.946
+special.cite_English.1884.1886    0.154     0.127       0.890
+special.cite_English.1878.1880    0.230     0.130       0.946
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 6.974799e-08
+Post (1917-1932): 3.566533e-08
+Post/Pre Ratio: 0.5113456 

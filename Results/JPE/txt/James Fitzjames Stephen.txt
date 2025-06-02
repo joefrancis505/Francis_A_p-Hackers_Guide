@@ -1,0 +1,42 @@
+Synthetic Control Analysis for James Fitzjames Stephen
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+      William Graham Sumner 0.486826
+              Nassau Senior 0.438324
+              Lujo Brentano 0.041491
+                  de Gouges 0.003690
+                    Blanqui 0.003395
+            Auberon Herbert 0.002725
+            Hippolyte Taine 0.002057
+            Otto Pfleiderer 0.001562
+                  Herodotus 0.001541
+ Pedro Calderón de la Barca 0.001290
+         Alessandro Manzoni 0.001233
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1862.000  1849.626    1564.297
+Socialist                         0.000     0.047       0.103
+Political                         1.000     0.984       0.395
+YearofTranslationtoEnglish     1862.000  1856.321    1800.123
+wrote_English                     1.000     0.978       0.390
+wrote_French                      0.000     0.013       0.133
+wrote_Greek                       0.000     0.002       0.077
+wrote_Latin                       0.000     0.001       0.072
+wrote_Italian                     0.000     0.001       0.026
+wrote_Spanish                     0.000     0.001       0.010
+wrote_German                      0.000     0.002       0.287
+special.cite_English.1914.1916    0.014     0.019       0.566
+special.cite_English.1908.1910    0.020     0.026       0.750
+special.cite_English.1902.1904    0.021     0.021       0.817
+special.cite_English.1896.1898    0.026     0.030       0.866
+special.cite_English.1890.1892    0.030     0.031       0.946
+special.cite_English.1884.1886    0.026     0.032       0.890
+special.cite_English.1878.1880    0.052     0.037       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.258263e-08
+Post (1917-1932): 1.78386e-08
+Post/Pre Ratio: 1.417716 

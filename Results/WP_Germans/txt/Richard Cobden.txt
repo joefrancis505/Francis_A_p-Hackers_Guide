@@ -1,0 +1,49 @@
+Synthetic Control Analysis for Richard Cobden
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+ James Fitzjames Stephen 0.404394
+   William Graham Sumner 0.205099
+                  Hobbes 0.097347
+              Lord Acton 0.086569
+          Jonathan Swift 0.045887
+              Lord Byron 0.042991
+           David Ricardo 0.035507
+           Lujo Brentano 0.022406
+            William Penn 0.009529
+        John Stuart Mill 0.007758
+                Voltaire 0.004252
+          William Godwin 0.003802
+          John C Calhoun 0.003137
+             Tocqueville 0.002644
+      Frederick Douglass 0.002236
+              Adam Smith 0.002132
+         Auberon Herbert 0.001405
+            Edmund Burke 0.001128
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1835.000  1829.253    1591.113
+Socialist                         0.000     0.027       0.141
+Political                         1.000     0.947       0.465
+YearofTranslationtoEnglish     1835.000  1834.385    1829.268
+wrote_English                     1.000     0.983       0.359
+wrote_French                      0.000     0.009       0.099
+wrote_Greek                       0.000     0.002       0.077
+wrote_Latin                       0.000     0.001       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.004       0.380
+special.cite_English.1914.1916    0.065     0.070       0.484
+special.cite_English.1908.1910    0.128     0.123       0.653
+special.cite_English.1902.1904    0.160     0.160       0.720
+special.cite_English.1896.1898    0.134     0.132       0.750
+special.cite_English.1890.1892    0.130     0.133       0.837
+special.cite_English.1884.1886    0.150     0.150       0.792
+special.cite_English.1878.1880    0.166     0.165       0.837
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.806276e-08
+Post (1917-1932): 3.119643e-08
+Post/Pre Ratio: 1.111666 

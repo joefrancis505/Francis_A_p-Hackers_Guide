@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Fichte
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+ Schleiermacher 0.368482
+   Schopenhauer 0.230018
+          Kafka 0.172569
+  Martin Luther 0.158681
+         Goethe 0.039202
+      Nietzsche 0.009714
+     Clausewitz 0.005896
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1794.000  1789.943    1591.401
+Socialist                         0.000     0.003       0.141
+Political                         0.000     0.008       0.472
+YearofTranslationtoEnglish     1868.000  1868.337    1829.035
+wrote_English                     0.000     0.006       0.366
+wrote_French                      0.000     0.002       0.099
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.001       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.990       0.373
+special.cite_English.1914.1916    0.586     0.559       0.481
+special.cite_English.1908.1910    0.577     0.621       0.650
+special.cite_English.1902.1904    0.555     0.701       0.717
+special.cite_English.1896.1898    0.804     0.803       0.746
+special.cite_English.1890.1892    1.054     1.016       0.831
+special.cite_English.1884.1886    1.089     0.961       0.785
+special.cite_English.1878.1880    0.925     0.946       0.832
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.009511e-07
+Post (1917-1932): 1.165597e-07
+Post/Pre Ratio: 0.5800401 

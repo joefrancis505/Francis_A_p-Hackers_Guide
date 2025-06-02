@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Leibniz
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+       Dostoyevsky 0.351694
+           Herbart 0.188407
+ Pliny the Younger 0.129503
+           Aquinas 0.116503
+    Charles Darwin 0.115364
+   Herbert Spencer 0.048959
+         Nietzsche 0.048560
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1666.000  1528.968    1595.248
+Socialist                         0.000     0.000       0.138
+Political                         0.000     0.049       0.476
+YearofTranslationtoEnglish     1951.000  1887.015    1828.476
+wrote_English                     0.000     0.164       0.372
+wrote_French                      0.000     0.001       0.097
+wrote_Greek                       0.000     0.000       0.076
+wrote_Latin                       1.000     0.246       0.055
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.237       0.372
+special.cite_English.1914.1916    0.324     0.334       0.475
+special.cite_English.1908.1910    0.376     0.361       0.641
+special.cite_English.1902.1904    0.368     0.366       0.707
+special.cite_English.1896.1898    0.468     0.439       0.737
+special.cite_English.1890.1892    0.266     0.353       0.822
+special.cite_English.1884.1886    0.436     0.342       0.777
+special.cite_English.1878.1880    0.098     0.229       0.823
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.628749e-07
+Post (1917-1932): 2.893464e-07
+Post/Pre Ratio: 1.776495 

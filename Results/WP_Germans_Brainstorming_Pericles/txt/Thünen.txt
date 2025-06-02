@@ -1,0 +1,51 @@
+Synthetic Control Analysis for Thünen
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+ Friedrich Heinrich Jacobi 0.530748
+           Theodor Fontane 0.205425
+               Carl Stumpf 0.131370
+            Gustav Freytag 0.030429
+            Ludwig Büchner 0.015039
+            Franz Brentano 0.012153
+    Barthold Georg Niebuhr 0.011262
+                     Kafka 0.009274
+             Hermann Cohen 0.006624
+             Eduard Zeller 0.005626
+            Grimmelshausen 0.005374
+                     Rilke 0.004208
+                 Hölderlin 0.003448
+          Ludwig Feuerbach 0.002870
+            E T A Hoffmann 0.002521
+         Ferdinand Tönnies 0.002520
+       Eduard von Hartmann 0.002171
+                Moses Hess 0.001317
+          Eduard Bernstein 0.001214
+                     Külpe 0.001052
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1826.000  1828.469    1580.459
+Socialist                         0.000     0.005       0.137
+Political                         0.000     0.012       0.479
+YearofTranslationtoEnglish     1966.000  1965.748    1827.000
+wrote_English                     0.000     0.004       0.370
+wrote_French                      0.000     0.001       0.096
+wrote_Greek                       0.000     0.001       0.082
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.993       0.363
+special.cite_English.1914.1916    0.004     0.007       0.481
+special.cite_English.1908.1910    0.002     0.008       0.650
+special.cite_English.1902.1904    0.004     0.008       0.715
+special.cite_English.1896.1898    0.014     0.012       0.747
+special.cite_English.1890.1892    0.012     0.012       0.834
+special.cite_English.1884.1886    0.007     0.007       0.785
+special.cite_English.1878.1880    0.003     0.008       0.831
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.068666e-08
+Post (1917-1932): 4.404202e-09
+Post/Pre Ratio: 0.4121215 

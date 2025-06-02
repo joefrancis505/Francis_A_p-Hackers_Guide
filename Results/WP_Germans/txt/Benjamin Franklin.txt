@@ -1,0 +1,53 @@
+Synthetic Control Analysis for Benjamin Franklin
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+        Thomas Jefferson 0.537969
+              Adam Smith 0.202266
+         Abraham Lincoln 0.124101
+      Frederick Douglass 0.028430
+          John C Calhoun 0.019159
+            William Penn 0.012758
+                    Hume 0.007809
+         Herbert Spencer 0.007540
+        John Stuart Mill 0.006950
+   William Graham Sumner 0.006204
+         Auberon Herbert 0.004906
+      Alexander Hamilton 0.004074
+ James Fitzjames Stephen 0.003670
+            Edmund Burke 0.002894
+           James Madison 0.002450
+          Richard Cobden 0.002374
+           David Ricardo 0.001946
+              Lord Acton 0.001743
+                 Malthus 0.001698
+          Wollstonecraft 0.001597
+          William Godwin 0.001385
+            John Woolman 0.001297
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1793.000  1789.486    1591.408
+Socialist                         0.000     0.003       0.141
+Political                         1.000     0.991       0.465
+YearofTranslationtoEnglish     1793.000  1792.687    1829.563
+wrote_English                     1.000     0.990       0.359
+wrote_French                      0.000     0.002       0.099
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.001       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.006       0.380
+special.cite_English.1914.1916    1.046     1.044       0.477
+special.cite_English.1908.1910    1.187     1.198       0.645
+special.cite_English.1902.1904    1.250     1.413       0.712
+special.cite_English.1896.1898    1.260     1.200       0.742
+special.cite_English.1890.1892    1.097     1.127       0.830
+special.cite_English.1884.1886    0.948     0.953       0.786
+special.cite_English.1878.1880    0.844     0.852       0.833
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.783024e-07
+Post (1917-1932): 1.763731e-07
+Post/Pre Ratio: 0.9891795 

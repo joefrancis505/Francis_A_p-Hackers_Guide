@@ -1,0 +1,34 @@
+Synthetic Control Analysis for Machiavelli
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+ Dante Alighieri 0.883421
+       Aristotle 0.112694
+     John Milton 0.003872
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1532.000  1136.215    1471.113
+Socialist                         0.000     0.000       0.155
+Political                         1.000     0.117       0.577
+YearofTranslationtoEnglish     1640.000  1763.605    1795.649
+wrote_English                     0.000     0.004       0.515
+wrote_French                      0.000     0.000       0.144
+wrote_Greek                       0.000     0.113       0.113
+wrote_Latin                       0.000     0.000       0.082
+wrote_Italian                     1.000     0.883       0.010
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.000       0.113
+special.cite_English.1914.1916    0.548     0.528       0.665
+special.cite_English.1908.1910    0.653     0.762       0.907
+special.cite_English.1902.1904    0.917     0.849       0.997
+special.cite_English.1896.1898    1.112     0.868       1.034
+special.cite_English.1890.1892    1.718     1.090       1.153
+special.cite_English.1884.1886    0.619     0.939       1.109
+special.cite_English.1878.1880    0.993     0.912       1.177
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.256008e-07
+Post (1917-1932): 1.53805e-07
+Post/Pre Ratio: 0.3613833 

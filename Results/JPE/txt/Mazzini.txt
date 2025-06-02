@@ -1,0 +1,39 @@
+Synthetic Control Analysis for Mazzini
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+    Dante Alighieri 0.489992
+ Alessandro Manzoni 0.218751
+          Karl Marx 0.081578
+          Aristotle 0.060756
+        Machiavelli 0.054575
+    Abraham Lincoln 0.039377
+            Cellini 0.033107
+          de Gouges 0.021666
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1825.000  1426.884    1564.487
+Socialist                         0.000     0.082       0.103
+Political                         1.000     0.258       0.395
+YearofTranslationtoEnglish     1840.000  1794.915    1800.236
+wrote_English                     0.000     0.039       0.395
+wrote_French                      0.000     0.022       0.133
+wrote_Greek                       0.000     0.061       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     1.000     0.796       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.082       0.287
+special.cite_English.1914.1916    0.403     0.432       0.564
+special.cite_English.1908.1910    0.654     0.601       0.747
+special.cite_English.1902.1904    0.611     0.626       0.814
+special.cite_English.1896.1898    0.597     0.636       0.863
+special.cite_English.1890.1892    0.813     0.786       0.942
+special.cite_English.1884.1886    0.642     0.625       0.887
+special.cite_English.1878.1880    0.578     0.608       0.944
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.421699e-07
+Post (1917-1932): 1.861016e-07
+Post/Pre Ratio: 1.309009 

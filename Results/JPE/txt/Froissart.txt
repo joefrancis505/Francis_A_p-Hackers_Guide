@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Froissart
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+    Montesquieu 0.767350
+  Ambroise Paré 0.142613
+          Aesop 0.046783
+        Tacitus 0.030070
+ Edmund Spenser 0.010976
+      Montaigne 0.002207
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1404.000  1558.333    1566.646
+Socialist                         0.000     0.000       0.103
+Political                         1.000     0.808       0.395
+YearofTranslationtoEnglish     1523.000  1714.151    1801.862
+wrote_English                     0.000     0.011       0.395
+wrote_French                      1.000     0.912       0.128
+wrote_Greek                       0.000     0.047       0.077
+wrote_Latin                       0.000     0.030       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.000       0.287
+special.cite_English.1914.1916    0.264     0.411       0.565
+special.cite_English.1908.1910    0.465     0.486       0.748
+special.cite_English.1902.1904    0.603     0.590       0.814
+special.cite_English.1896.1898    0.550     0.650       0.863
+special.cite_English.1890.1892    0.563     0.687       0.944
+special.cite_English.1884.1886    0.655     0.610       0.887
+special.cite_English.1878.1880    0.673     0.730       0.944
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.560953e-07
+Post (1917-1932): 2.087789e-07
+Post/Pre Ratio: 1.337509 

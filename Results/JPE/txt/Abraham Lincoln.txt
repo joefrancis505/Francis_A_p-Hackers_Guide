@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Abraham Lincoln
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+      Name   Weight
+ Nietzsche 0.472110
+    Kelvin 0.331568
+ Aristotle 0.084509
+  Rousseau 0.049053
+   Marlowe 0.042083
+    Newton 0.020661
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1861.000  1660.359    1564.303
+Socialist                         0.000     0.000       0.103
+Political                         1.000     0.134       0.395
+YearofTranslationtoEnglish     1861.000  1837.212    1800.128
+wrote_English                     1.000     0.374       0.390
+wrote_French                      0.000     0.049       0.133
+wrote_Greek                       0.000     0.085       0.077
+wrote_Latin                       0.000     0.021       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.472       0.287
+special.cite_English.1914.1916    2.257     2.302       0.554
+special.cite_English.1908.1910    2.760     2.437       0.736
+special.cite_English.1902.1904    2.040     2.001       0.807
+special.cite_English.1896.1898    1.760     2.110       0.857
+special.cite_English.1890.1892    1.760     1.508       0.938
+special.cite_English.1884.1886    1.283     1.246       0.884
+special.cite_English.1878.1880    0.954     1.237       0.942
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 3.731189e-07
+Post (1917-1932): 7.710136e-07
+Post/Pre Ratio: 2.066402 

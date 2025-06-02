@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Nassau Senior
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+ James Fitzjames Stephen 0.517920
+           David Ricardo 0.237180
+                  Hobbes 0.114333
+   William Graham Sumner 0.100561
+           Lujo Brentano 0.015268
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1827.000  1827.956    1594.138
+Socialist                         0.000     0.017       0.138
+Political                         1.000     0.992       0.469
+YearofTranslationtoEnglish     1827.000  1829.516    1829.331
+wrote_English                     1.000     0.989       0.366
+wrote_French                      0.000     0.002       0.097
+wrote_Greek                       0.000     0.000       0.076
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.008       0.372
+special.cite_English.1914.1916    0.012     0.017       0.478
+special.cite_English.1908.1910    0.018     0.026       0.644
+special.cite_English.1902.1904    0.019     0.025       0.709
+special.cite_English.1896.1898    0.035     0.031       0.740
+special.cite_English.1890.1892    0.025     0.030       0.824
+special.cite_English.1884.1886    0.029     0.028       0.780
+special.cite_English.1878.1880    0.043     0.041       0.823
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.204189e-08
+Post (1917-1932): 1.356828e-08
+Post/Pre Ratio: 1.126757 

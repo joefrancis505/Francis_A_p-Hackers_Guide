@@ -1,0 +1,39 @@
+Synthetic Control Analysis for Molière
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+             Name   Weight
+ Pierre Corneille 0.330078
+      SainteBeuve 0.269591
+      Jean Racine 0.212815
+  Abraham Lincoln 0.056064
+        Herodotus 0.053704
+          Spinoza 0.047297
+           Kelvin 0.020401
+           Cicero 0.010013
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1645.000  1582.301    1565.410
+Socialist                         0.000     0.000       0.103
+Political                         0.000     0.120       0.400
+YearofTranslationtoEnglish     1714.000  1746.297    1800.882
+wrote_English                     0.000     0.076       0.395
+wrote_French                      1.000     0.812       0.128
+wrote_Greek                       0.000     0.054       0.077
+wrote_Latin                       0.000     0.057       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.000       0.287
+special.cite_English.1914.1916    0.304     0.322       0.564
+special.cite_English.1908.1910    0.592     0.553       0.747
+special.cite_English.1902.1904    0.519     0.530       0.815
+special.cite_English.1896.1898    0.515     0.541       0.864
+special.cite_English.1890.1892    0.589     0.596       0.944
+special.cite_English.1884.1886    0.494     0.508       0.888
+special.cite_English.1878.1880    0.761     0.729       0.943
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.526885e-07
+Post (1917-1932): 1.638573e-07
+Post/Pre Ratio: 1.073147 

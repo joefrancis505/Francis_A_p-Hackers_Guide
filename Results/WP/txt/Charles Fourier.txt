@@ -1,0 +1,34 @@
+Synthetic Control Analysis for Charles Fourier
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+          de Gouges 0.540580
+            Bakunin 0.312861
+ Ferdinand Lassalle 0.144193
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1808.000  1827.581    1468.268
+Socialist                         1.000     0.457       0.144
+Political                         1.000     0.999       0.577
+YearofTranslationtoEnglish     1901.000  1934.575    1792.959
+wrote_English                     0.000     0.001       0.515
+wrote_French                      1.000     0.854       0.134
+wrote_Greek                       0.000     0.001       0.113
+wrote_Latin                       0.000     0.000       0.082
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.144       0.113
+special.cite_English.1914.1916    0.007     0.027       0.670
+special.cite_English.1908.1910    0.016     0.028       0.913
+special.cite_English.1902.1904    0.014     0.021       1.007
+special.cite_English.1896.1898    0.012     0.032       1.045
+special.cite_English.1890.1892    0.017     0.034       1.171
+special.cite_English.1884.1886    0.016     0.019       1.115
+special.cite_English.1878.1880    0.015     0.052       1.187
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.409806e-08
+Post (1917-1932): 4.948849e-08
+Post/Pre Ratio: 2.05363 

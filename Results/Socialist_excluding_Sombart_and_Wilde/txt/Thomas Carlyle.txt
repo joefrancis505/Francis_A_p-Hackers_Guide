@@ -1,0 +1,28 @@
+Synthetic Control Analysis for Thomas Carlyle
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+         Name   Weight
+     Sismondi 0.574934
+ Henry George 0.412501
+  John Ruskin 0.007235
+  Robert Owen 0.002829
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1837.000  1841.842    1860.471
+wrote_English                     1.000     0.423       0.353
+wrote_German                      0.000     0.001       0.353
+YearofTranslationtoEnglish     1837.000  1860.303    1883.118
+special.cite_English.1914.1916    0.228     0.361       0.117
+special.cite_English.1908.1910    0.388     0.405       0.146
+special.cite_English.1902.1904    0.463     0.398       0.135
+special.cite_English.1896.1898    0.513     0.420       0.141
+special.cite_English.1890.1892    0.568     0.550       0.166
+special.cite_English.1884.1886    0.547     0.502       0.131
+special.cite_English.1878.1880    0.398     0.432       0.110
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.199053e-07
+Post (1917-1932): 1.208208e-07
+Post/Pre Ratio: 0.5494221 

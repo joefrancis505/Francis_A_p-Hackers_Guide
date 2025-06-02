@@ -1,0 +1,43 @@
+Synthetic Control Analysis for Friedrich List
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+                Max Stirner 0.803570
+          Ferdinand Tönnies 0.158392
+                 Moses Hess 0.005163
+           Eduard Bernstein 0.003264
+               August Bebel 0.001849
+ Friedrich Carl von Savigny 0.001410
+             Ludwig Büchner 0.001229
+     Barthold Georg Niebuhr 0.001197
+                  de Gouges 0.001191
+             Franz Brentano 0.001146
+                      Aesop 0.001105
+                Carl Stumpf 0.001086
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1841.000  1846.754    1591.070
+Socialist                         0.000     0.012       0.141
+Political                         1.000     0.979       0.465
+YearofTranslationtoEnglish     1909.000  1910.807    1828.746
+wrote_English                     0.000     0.003       0.366
+wrote_French                      0.000     0.002       0.099
+wrote_Greek                       0.000     0.002       0.077
+wrote_Latin                       0.000     0.001       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.991       0.373
+special.cite_English.1914.1916    0.017     0.018       0.485
+special.cite_English.1908.1910    0.023     0.020       0.653
+special.cite_English.1902.1904    0.013     0.009       0.721
+special.cite_English.1896.1898    0.005     0.012       0.751
+special.cite_English.1890.1892    0.004     0.009       0.838
+special.cite_English.1884.1886    0.007     0.006       0.793
+special.cite_English.1878.1880    0.001     0.006       0.839
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 6.782635e-09
+Post (1917-1932): 8.344318e-09
+Post/Pre Ratio: 1.230247 

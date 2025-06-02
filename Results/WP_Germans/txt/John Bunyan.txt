@@ -1,0 +1,39 @@
+Synthetic Control Analysis for John Bunyan
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                 Name   Weight
+ Percy Bysshe Shelley 0.586950
+         Izaak Walton 0.159922
+               Hobbes 0.155024
+               Kempis 0.056067
+             Voltaire 0.015993
+                Aesop 0.013937
+               Goethe 0.010782
+           Lord Byron 0.001259
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1678.000  1709.436    1592.218
+Socialist                         0.000     0.000       0.141
+Political                         0.000     0.171       0.472
+YearofTranslationtoEnglish     1678.000  1744.293    1830.373
+wrote_English                     1.000     0.903       0.359
+wrote_French                      0.000     0.016       0.099
+wrote_Greek                       0.000     0.014       0.077
+wrote_Latin                       0.000     0.056       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.011       0.380
+special.cite_English.1914.1916    0.119     0.136       0.484
+special.cite_English.1908.1910    0.216     0.225       0.652
+special.cite_English.1902.1904    0.229     0.243       0.719
+special.cite_English.1896.1898    0.228     0.250       0.750
+special.cite_English.1890.1892    0.254     0.278       0.836
+special.cite_English.1884.1886    0.407     0.354       0.790
+special.cite_English.1878.1880    0.320     0.310       0.836
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.494626e-08
+Post (1917-1932): 1.147966e-07
+Post/Pre Ratio: 2.554086 

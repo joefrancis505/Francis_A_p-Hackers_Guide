@@ -1,0 +1,29 @@
+Synthetic Control Analysis for Karl Marx
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+   Eduard Bernstein 0.280572
+         Moses Hess 0.277017
+       Henry George 0.245524
+ Ferdinand Lassalle 0.144642
+          Kropotkin 0.052085
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1867.000  1873.240    1857.188
+wrote_English                     0.000     0.298       0.438
+wrote_German                      1.000     0.702       0.250
+YearofTranslationtoEnglish     1887.000  1880.197    1879.875
+special.cite_English.1914.1916    0.216     0.191       0.124
+special.cite_English.1908.1910    0.291     0.201       0.160
+special.cite_English.1902.1904    0.162     0.178       0.161
+special.cite_English.1896.1898    0.177     0.194       0.170
+special.cite_English.1890.1892    0.206     0.222       0.199
+special.cite_English.1884.1886    0.176     0.188       0.162
+special.cite_English.1878.1880    0.077     0.094       0.136
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.838988e-08
+Post (1917-1932): 3.375584e-07
+Post/Pre Ratio: 5.781112 

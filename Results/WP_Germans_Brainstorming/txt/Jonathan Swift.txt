@@ -1,0 +1,44 @@
+Synthetic Control Analysis for Jonathan Swift
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+             Hobbes 0.478589
+     William Godwin 0.421391
+     Richard Cobden 0.026592
+         Lord Acton 0.021736
+            Bentham 0.012068
+ Frederick Douglass 0.003564
+   John Stuart Mill 0.003263
+     John C Calhoun 0.002981
+    Herbert Spencer 0.002814
+       John Woolman 0.002327
+      David Ricardo 0.001943
+      James Madison 0.001172
+       Edmund Burke 0.001105
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1729.000  1725.839    1594.814
+Socialist                         0.000     0.003       0.138
+Political                         1.000     0.991       0.469
+YearofTranslationtoEnglish     1729.000  1729.108    1830.007
+wrote_English                     1.000     0.990       0.366
+wrote_French                      0.000     0.002       0.097
+wrote_Greek                       0.000     0.001       0.076
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.006       0.372
+special.cite_English.1914.1916    0.058     0.070       0.477
+special.cite_English.1908.1910    0.114     0.096       0.643
+special.cite_English.1902.1904    0.103     0.103       0.709
+special.cite_English.1896.1898    0.089     0.098       0.740
+special.cite_English.1890.1892    0.095     0.102       0.823
+special.cite_English.1884.1886    0.154     0.143       0.779
+special.cite_English.1878.1880    0.127     0.128       0.822
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 3.052457e-08
+Post (1917-1932): 1.881604e-08
+Post/Pre Ratio: 0.6164226 

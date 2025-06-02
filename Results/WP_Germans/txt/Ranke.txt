@@ -1,0 +1,39 @@
+Synthetic Control Analysis for Ranke
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+  Hermann Lotze 0.367991
+    John Bunyan 0.230150
+        Herbart 0.137428
+ Charles Darwin 0.103800
+         Fichte 0.100038
+         Goethe 0.026356
+       Voltaire 0.017934
+     Lord Byron 0.015553
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1834.000  1799.080    1591.120
+Socialist                         0.000     0.000       0.141
+Political                         0.000     0.018       0.472
+YearofTranslationtoEnglish     1840.000  1832.193    1829.232
+wrote_English                     0.000     0.350       0.366
+wrote_French                      0.000     0.018       0.099
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.632       0.373
+special.cite_English.1914.1916    0.281     0.300       0.483
+special.cite_English.1908.1910    0.435     0.437       0.651
+special.cite_English.1902.1904    0.497     0.502       0.717
+special.cite_English.1896.1898    0.576     0.571       0.747
+special.cite_English.1890.1892    0.568     0.568       0.834
+special.cite_English.1884.1886    0.701     0.684       0.788
+special.cite_English.1878.1880    0.570     0.585       0.835
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.611862e-07
+Post (1917-1932): 9.860891e-08
+Post/Pre Ratio: 0.61177 

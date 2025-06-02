@@ -1,0 +1,47 @@
+Synthetic Control Analysis for Dostoyevsky
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+            Otto Pfleiderer 0.203763
+                Carl Stumpf 0.186401
+                 Clausewitz 0.162746
+              Hermann Lotze 0.115664
+              Edward Jenner 0.094299
+         Alessandro Manzoni 0.069168
+      William Graham Sumner 0.068843
+ Pedro Calderón de la Barca 0.030860
+             Philip Nichols 0.030717
+             William Harvey 0.006247
+                  Nietzsche 0.003984
+                      Rilke 0.003696
+              Lujo Brentano 0.002594
+              Joseph Lister 0.002515
+                   Durkheim 0.001936
+                    Leibniz 0.001527
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1866.000  1844.390    1564.277
+Socialist                         0.000     0.004       0.103
+Political                         0.000     0.076       0.400
+YearofTranslationtoEnglish     1885.000  1880.676    1800.005
+wrote_English                     0.000     0.407       0.395
+wrote_French                      0.000     0.003       0.133
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.008       0.072
+wrote_Italian                     0.000     0.069       0.026
+wrote_Spanish                     0.000     0.031       0.010
+wrote_German                      0.000     0.481       0.287
+special.cite_English.1914.1916    0.074     0.051       0.566
+special.cite_English.1908.1910    0.010     0.035       0.750
+special.cite_English.1902.1904    0.014     0.020       0.817
+special.cite_English.1896.1898    0.025     0.027       0.866
+special.cite_English.1890.1892    0.009     0.024       0.947
+special.cite_English.1884.1886    0.040     0.022       0.890
+special.cite_English.1878.1880    0.000     0.017       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 3.375203e-08
+Post (1917-1932): 1.051676e-07
+Post/Pre Ratio: 3.115888 

@@ -1,0 +1,46 @@
+Synthetic Control Analysis for Wilhelm von Humboldt
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                   Name   Weight
+            Max Stirner 0.502895
+               Schäffle 0.317302
+             Moses Hess 0.054792
+                 Hobbes 0.037567
+     Friedrich Schiller 0.028748
+            Tocqueville 0.024068
+                 Kempis 0.009558
+                Herbart 0.002158
+           Robert Burns 0.001623
+                  Ranke 0.001500
+ Barthold Georg Niebuhr 0.001407
+               Voltaire 0.001184
+           Schopenhauer 0.001163
+           William Penn 0.001109
+              Schmoller 0.001015
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1852.000  1837.294    1593.966
+Socialist                         0.000     0.056       0.138
+Political                         1.000     0.946       0.469
+YearofTranslationtoEnglish     1854.000  1877.611    1829.145
+wrote_English                     0.000     0.045       0.372
+wrote_French                      0.000     0.026       0.097
+wrote_Greek                       0.000     0.001       0.076
+wrote_Latin                       0.000     0.010       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.917       0.366
+special.cite_English.1914.1916    0.032     0.031       0.478
+special.cite_English.1908.1910    0.042     0.044       0.643
+special.cite_English.1902.1904    0.037     0.041       0.709
+special.cite_English.1896.1898    0.057     0.052       0.740
+special.cite_English.1890.1892    0.046     0.054       0.823
+special.cite_English.1884.1886    0.048     0.044       0.780
+special.cite_English.1878.1880    0.046     0.045       0.823
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.173717e-08
+Post (1917-1932): 1.266293e-08
+Post/Pre Ratio: 1.078874 

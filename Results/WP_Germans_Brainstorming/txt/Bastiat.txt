@@ -1,0 +1,41 @@
+Synthetic Control Analysis for Bastiat
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                   Name   Weight
+              de Gouges 0.453584
+               Sismondi 0.367168
+      Benjamin Constant 0.099569
+         William Godwin 0.032249
+                 Hobbes 0.017748
+                 Kempis 0.004521
+ Barthold Georg Niebuhr 0.004257
+          Auguste Comte 0.003717
+                Blanqui 0.001918
+         E T A Hoffmann 0.001133
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1850.000  1797.753    1593.979
+Socialist                         0.000     0.370       0.138
+Political                         1.000     0.978       0.469
+YearofTranslationtoEnglish     1867.000  1897.024    1829.055
+wrote_English                     0.000     0.055       0.372
+wrote_French                      1.000     0.927       0.090
+wrote_Greek                       0.000     0.000       0.076
+wrote_Latin                       0.000     0.006       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.012       0.372
+special.cite_English.1914.1916    0.049     0.062       0.477
+special.cite_English.1908.1910    0.084     0.079       0.643
+special.cite_English.1902.1904    0.068     0.097       0.709
+special.cite_English.1896.1898    0.088     0.093       0.740
+special.cite_English.1890.1892    0.144     0.149       0.823
+special.cite_English.1884.1886    0.154     0.149       0.779
+special.cite_English.1878.1880    0.230     0.202       0.822
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.230749e-08
+Post (1917-1932): 4.849966e-08
+Post/Pre Ratio: 0.9272028 

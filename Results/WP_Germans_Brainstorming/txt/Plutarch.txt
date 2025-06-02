@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Plutarch
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+       Name   Weight
+ Thucydides 0.714452
+       Hume 0.181675
+     Goethe 0.086883
+  Aristotle 0.012164
+  Sophocles 0.002683
+   Voltaire 0.001050
+     Cicero 0.001001
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              -120.000   188.479    1607.566
+Socialist                         0.000     0.000       0.138
+Political                         1.000     0.910       0.469
+YearofTranslationtoEnglish     1579.000  1669.590    1831.041
+wrote_English                     0.000     0.182       0.372
+wrote_French                      0.000     0.001       0.097
+wrote_Greek                       1.000     0.729       0.069
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.087       0.372
+special.cite_English.1914.1916    1.217     1.394       0.469
+special.cite_English.1908.1910    2.300     2.114       0.628
+special.cite_English.1902.1904    2.463     2.354       0.693
+special.cite_English.1896.1898    2.407     2.503       0.724
+special.cite_English.1890.1892    3.067     3.117       0.803
+special.cite_English.1884.1886    2.843     2.819       0.761
+special.cite_English.1878.1880    3.577     3.503       0.799
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.421887e-07
+Post (1917-1932): 4.100341e-07
+Post/Pre Ratio: 1.693036 

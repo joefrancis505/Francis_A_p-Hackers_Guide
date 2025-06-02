@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Blanqui
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+ Charles Fourier 0.348935
+         Bakunin 0.227300
+       de Gouges 0.217603
+        Sismondi 0.199058
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1866.000  1822.226    1593.869
+Socialist                         1.000     0.776       0.131
+Political                         1.000     0.996       0.469
+YearofTranslationtoEnglish     1971.000  1902.930    1828.338
+wrote_English                     0.000     0.002       0.372
+wrote_French                      1.000     0.994       0.090
+wrote_Greek                       0.000     0.000       0.076
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.004       0.372
+special.cite_English.1914.1916    0.025     0.048       0.478
+special.cite_English.1908.1910    0.038     0.058       0.643
+special.cite_English.1902.1904    0.041     0.064       0.709
+special.cite_English.1896.1898    0.080     0.067       0.740
+special.cite_English.1890.1892    0.072     0.096       0.823
+special.cite_English.1884.1886    0.102     0.089       0.780
+special.cite_English.1878.1880    0.172     0.142       0.822
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.027614e-08
+Post (1917-1932): 4.317114e-08
+Post/Pre Ratio: 1.071879 

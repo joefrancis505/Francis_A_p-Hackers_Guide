@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Auberon Herbert
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+   William Graham Sumner 0.672534
+ James Fitzjames Stephen 0.137391
+          Edward Bellamy 0.089255
+          Wollstonecraft 0.046625
+                   Kafka 0.032306
+           Lujo Brentano 0.003700
+                 Malthus 0.001285
+               de Gouges 0.001233
+          William Godwin 0.001178
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1885.000  1874.112    1590.761
+Socialist                         0.000     0.094       0.141
+Political                         1.000     0.960       0.465
+YearofTranslationtoEnglish     1885.000  1877.190    1828.915
+wrote_English                     1.000     0.958       0.359
+wrote_French                      0.000     0.003       0.099
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.001       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.037       0.380
+special.cite_English.1914.1916    0.006     0.025       0.485
+special.cite_English.1908.1910    0.019     0.030       0.654
+special.cite_English.1902.1904    0.020     0.022       0.721
+special.cite_English.1896.1898    0.029     0.036       0.751
+special.cite_English.1890.1892    0.070     0.059       0.838
+special.cite_English.1884.1886    0.048     0.038       0.792
+special.cite_English.1878.1880    0.029     0.030       0.838
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.311322e-08
+Post (1917-1932): 2.587786e-08
+Post/Pre Ratio: 1.973417 

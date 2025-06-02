@@ -1,0 +1,45 @@
+Synthetic Control Analysis for Hans Christian Andersen
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+            Otto Pfleiderer 0.537364
+              Edward Jenner 0.344713
+                John Bunyan 0.042307
+                   Durkheim 0.014964
+                Dostoyevsky 0.012117
+                     Goethe 0.003097
+                Victor Hugo 0.002884
+                    Spinoza 0.001768
+             Francis Pretty 0.001745
+                     Bigges 0.001126
+             Ludwig Büchner 0.001091
+                      Rilke 0.001074
+ Friedrich Carl von Savigny 0.001045
+     Barthold Georg Niebuhr 0.001025
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1848.000  1835.726    1564.369
+Socialist                         0.000     0.001       0.103
+Political                         0.000     0.005       0.400
+YearofTranslationtoEnglish     1848.000  1847.420    1800.195
+wrote_English                     1.000     0.937       0.390
+wrote_French                      0.000     0.021       0.133
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.003       0.072
+wrote_Italian                     0.000     0.001       0.026
+wrote_Spanish                     0.000     0.001       0.010
+wrote_German                      0.000     0.024       0.287
+special.cite_English.1914.1916    0.056     0.050       0.566
+special.cite_English.1908.1910    0.064     0.077       0.750
+special.cite_English.1902.1904    0.075     0.070       0.817
+special.cite_English.1896.1898    0.085     0.088       0.866
+special.cite_English.1890.1892    0.074     0.076       0.946
+special.cite_English.1884.1886    0.095     0.091       0.890
+special.cite_English.1878.1880    0.082     0.078       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.55095e-08
+Post (1917-1932): 1.218178e-08
+Post/Pre Ratio: 0.7854397 

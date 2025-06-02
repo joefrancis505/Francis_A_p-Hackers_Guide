@@ -1,0 +1,26 @@
+Synthetic Control Analysis for Sismondi
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+        Blanqui 0.568393
+ Thomas Carlyle 0.431436
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1815.000  1853.485    1861.765
+wrote_English                     0.000     0.432       0.412
+wrote_German                      0.000     0.000       0.353
+YearofTranslationtoEnglish     1847.000  1913.169    1882.529
+special.cite_English.1914.1916    0.133     0.112       0.123
+special.cite_English.1908.1910    0.164     0.189       0.159
+special.cite_English.1902.1904    0.206     0.223       0.150
+special.cite_English.1896.1898    0.195     0.267       0.159
+special.cite_English.1890.1892    0.333     0.286       0.180
+special.cite_English.1884.1886    0.338     0.294       0.143
+special.cite_English.1878.1880    0.484     0.270       0.105
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.036354e-07
+Post (1917-1932): 1.265323e-07
+Post/Pre Ratio: 1.220937 

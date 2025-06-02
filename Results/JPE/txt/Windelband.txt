@@ -1,0 +1,58 @@
+Synthetic Control Analysis for Windelband
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+                      Rilke 0.455555
+                      Külpe 0.213801
+             Ludwig Büchner 0.203499
+                  Nietzsche 0.014607
+                     Kelvin 0.012187
+                Carl Stumpf 0.010406
+                Thomas Mann 0.008507
+         Friedrich Schiller 0.007096
+             Franz Brentano 0.006408
+           Ludwig Feuerbach 0.005658
+              Eduard Zeller 0.004396
+                     Simmel 0.003186
+        Eduard von Hartmann 0.002968
+                 Ebbinghaus 0.002818
+ Friedrich Carl von Savigny 0.002559
+             E T A Hoffmann 0.002171
+                  Hölderlin 0.002122
+                    Scheler 0.002080
+                    Dilthey 0.002034
+                      Frege 0.001948
+            Theodor Fontane 0.001849
+                     Thünen 0.001646
+  Friedrich Heinrich Jacobi 0.001530
+              Hermann Cohen 0.001298
+   Gotthold Ephraim Lessing 0.001294
+             Grimmelshausen 0.001268
+            Hippolyte Taine 0.001205
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1893.000  1882.557    1564.138
+Socialist                         0.000     0.001       0.103
+Political                         0.000     0.005       0.400
+YearofTranslationtoEnglish     1901.000  1902.599    1799.923
+wrote_English                     0.000     0.023       0.395
+wrote_French                      0.000     0.005       0.133
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.001       0.072
+wrote_Italian                     0.000     0.001       0.026
+wrote_Spanish                     0.000     0.001       0.010
+wrote_German                      1.000     0.966       0.282
+special.cite_English.1914.1916    0.067     0.068       0.566
+special.cite_English.1908.1910    0.066     0.066       0.750
+special.cite_English.1902.1904    0.058     0.049       0.817
+special.cite_English.1896.1898    0.049     0.055       0.866
+special.cite_English.1890.1892    0.023     0.026       0.947
+special.cite_English.1884.1886    0.009     0.016       0.890
+special.cite_English.1878.1880    0.013     0.016       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.856539e-08
+Post (1917-1932): 2.359923e-08
+Post/Pre Ratio: 1.271141 

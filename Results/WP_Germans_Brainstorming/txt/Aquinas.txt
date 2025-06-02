@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Aquinas
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+           Leibniz 0.434203
+ Pliny the Younger 0.191941
+            Kempis 0.101175
+   Robert Browning 0.083069
+   Herbert Spencer 0.063987
+           Bentham 0.062465
+            Cicero 0.031982
+             Plato 0.016616
+          Rousseau 0.002560
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1265.000  1244.159    1598.014
+Socialist                         0.000     0.002       0.138
+Political                         0.000     0.182       0.476
+YearofTranslationtoEnglish     1911.000  1858.972    1828.752
+wrote_English                     0.000     0.211       0.372
+wrote_French                      0.000     0.003       0.097
+wrote_Greek                       0.000     0.017       0.076
+wrote_Latin                       1.000     0.761       0.055
+wrote_Italian                     0.000     0.001       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.007       0.372
+special.cite_English.1914.1916    0.529     0.535       0.474
+special.cite_English.1908.1910    0.741     0.729       0.639
+special.cite_English.1902.1904    0.763     0.775       0.704
+special.cite_English.1896.1898    0.861     0.877       0.734
+special.cite_English.1890.1892    0.981     0.953       0.817
+special.cite_English.1884.1886    0.969     0.961       0.774
+special.cite_English.1878.1880    0.812     0.826       0.818
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.37746e-07
+Post (1917-1932): 2.387031e-07
+Post/Pre Ratio: 1.732922 

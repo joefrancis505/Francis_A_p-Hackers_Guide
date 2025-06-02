@@ -1,0 +1,47 @@
+Synthetic Control Analysis for John Locke
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+                  Hobbes 0.788404
+         Auberon Herbert 0.084904
+          William Godwin 0.036861
+                 Bentham 0.021003
+                    Hume 0.018944
+ James Fitzjames Stephen 0.013914
+          Jonathan Swift 0.005440
+        John Stuart Mill 0.003134
+            Edmund Burke 0.002162
+          Richard Cobden 0.002092
+              Adam Smith 0.001707
+                 Malthus 0.001692
+          John C Calhoun 0.001208
+      Frederick Douglass 0.001193
+         Herbert Spencer 0.001187
+            William Penn 0.001011
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1689.000  1685.727    1469.495
+Socialist                         0.000     0.002       0.155
+Political                         1.000     0.995       0.577
+YearofTranslationtoEnglish     1689.000  1689.081    1795.144
+wrote_English                     1.000     0.995       0.505
+wrote_French                      0.000     0.002       0.144
+wrote_Greek                       0.000     0.001       0.113
+wrote_Latin                       0.000     0.001       0.082
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.001       0.113
+special.cite_English.1914.1916    0.117     0.119       0.669
+special.cite_English.1908.1910    0.174     0.173       0.912
+special.cite_English.1902.1904    0.191     0.194       1.005
+special.cite_English.1896.1898    0.190     0.196       1.044
+special.cite_English.1890.1892    0.220     0.214       1.169
+special.cite_English.1884.1886    0.216     0.218       1.113
+special.cite_English.1878.1880    0.256     0.248       1.185
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.494858e-08
+Post (1917-1932): 4.276271e-08
+Post/Pre Ratio: 1.714034 

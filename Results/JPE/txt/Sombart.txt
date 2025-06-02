@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Sombart
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+             Name   Weight
+ Eduard Bernstein 0.940978
+        Nietzsche 0.033249
+       Moses Hess 0.009456
+     August Bebel 0.001507
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1905.000  1894.060    1564.077
+Socialist                         1.000     0.954       0.097
+Political                         1.000     0.959       0.395
+YearofTranslationtoEnglish     1909.000  1906.561    1799.882
+wrote_English                     0.000     0.006       0.395
+wrote_French                      0.000     0.003       0.133
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.001       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      1.000     0.989       0.282
+special.cite_English.1914.1916    0.110     0.105       0.565
+special.cite_English.1908.1910    0.050     0.058       0.750
+special.cite_English.1902.1904    0.026     0.030       0.817
+special.cite_English.1896.1898    0.033     0.031       0.866
+special.cite_English.1890.1892    0.011     0.014       0.947
+special.cite_English.1884.1886    0.012     0.010       0.890
+special.cite_English.1878.1880    0.014     0.011       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.52105e-08
+Post (1917-1932): 6.687533e-08
+Post/Pre Ratio: 4.396656 

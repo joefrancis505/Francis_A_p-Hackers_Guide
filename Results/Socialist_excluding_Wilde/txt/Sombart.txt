@@ -1,0 +1,27 @@
+Synthetic Control Analysis for Sombart
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+             Name   Weight
+ Eduard Bernstein 0.780512
+        Kropotkin 0.123271
+        Karl Marx 0.096147
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1905.000  1896.290    1859.167
+wrote_English                     0.000     0.123       0.389
+wrote_German                      1.000     0.877       0.333
+YearofTranslationtoEnglish     1909.000  1906.020    1880.556
+special.cite_English.1914.1916    0.110     0.064       0.123
+special.cite_English.1908.1910    0.050     0.057       0.160
+special.cite_English.1902.1904    0.026     0.040       0.153
+special.cite_English.1896.1898    0.033     0.035       0.161
+special.cite_English.1890.1892    0.011     0.026       0.188
+special.cite_English.1884.1886    0.012     0.020       0.154
+special.cite_English.1878.1880    0.014     0.008       0.126
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.506009e-08
+Post (1917-1932): 5.491192e-08
+Post/Pre Ratio: 2.19121 

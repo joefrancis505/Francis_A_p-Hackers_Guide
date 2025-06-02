@@ -1,0 +1,42 @@
+Synthetic Control Analysis for Montesquieu
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+       Tocqueville 0.401886
+           Bastiat 0.333726
+  Thomas Jefferson 0.097430
+       Machiavelli 0.056749
+          Rousseau 0.038731
+            Cicero 0.017885
+          Sismondi 0.015767
+         Nietzsche 0.013672
+          Voltaire 0.009657
+ Benjamin Constant 0.007694
+        Thucydides 0.004556
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1748.000  1768.811    1594.683
+Socialist                         0.000     0.016       0.138
+Political                         1.000     0.985       0.469
+YearofTranslationtoEnglish     1750.000  1833.295    1829.862
+wrote_English                     0.000     0.098       0.372
+wrote_French                      1.000     0.808       0.090
+wrote_Greek                       0.000     0.005       0.076
+wrote_Latin                       0.000     0.018       0.062
+wrote_Italian                     0.000     0.057       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.014       0.372
+special.cite_English.1914.1916    0.479     0.455       0.474
+special.cite_English.1908.1910    0.544     0.580       0.640
+special.cite_English.1902.1904    0.676     0.668       0.705
+special.cite_English.1896.1898    0.741     0.737       0.735
+special.cite_English.1890.1892    0.758     0.766       0.819
+special.cite_English.1884.1886    0.682     0.683       0.776
+special.cite_English.1878.1880    0.803     0.792       0.818
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.19248e-07
+Post (1917-1932): 6.152995e-08
+Post/Pre Ratio: 0.515983 

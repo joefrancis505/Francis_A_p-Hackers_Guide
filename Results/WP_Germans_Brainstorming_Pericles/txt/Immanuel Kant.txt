@@ -1,0 +1,63 @@
+Synthetic Control Analysis for Immanuel Kant
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+         Friedrich Schiller 0.340219
+  Friedrich Heinrich Jacobi 0.231745
+             Grimmelshausen 0.135042
+             Franz Brentano 0.074345
+                Carl Stumpf 0.026482
+              Hermann Cohen 0.018646
+           Thomas Jefferson 0.017848
+                  Nietzsche 0.017319
+ Friedrich Carl von Savigny 0.016668
+                      Rilke 0.010567
+                Thomas Mann 0.010328
+                  Hölderlin 0.009501
+                    Herbart 0.007169
+                    Dilthey 0.004620
+                 Windelband 0.004578
+                     Thünen 0.004503
+            Theodor Fontane 0.004239
+                      Wundt 0.003276
+                      Külpe 0.003222
+        Eduard von Hartmann 0.002315
+                      Frege 0.002218
+                     Herder 0.002130
+                    Scheler 0.002025
+              Eduard Zeller 0.001950
+                 Clausewitz 0.001896
+                     Simmel 0.001846
+           Ludwig Feuerbach 0.001784
+                     Hamann 0.001767
+              Hermann Lotze 0.001612
+     Barthold Georg Niebuhr 0.001236
+                    Marlowe 0.001098
+                    Thoreau 0.001094
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1785.000  1785.422    1580.740
+Socialist                         0.000     0.005       0.137
+Political                         0.000     0.036       0.479
+YearofTranslationtoEnglish     1895.000  1894.072    1827.486
+wrote_English                     0.000     0.034       0.370
+wrote_French                      0.000     0.004       0.096
+wrote_Greek                       0.000     0.004       0.082
+wrote_Latin                       0.000     0.003       0.062
+wrote_Italian                     0.000     0.001       0.014
+wrote_Spanish                     0.000     0.001       0.007
+wrote_German                      1.000     0.955       0.363
+special.cite_English.1914.1916    0.094     0.092       0.480
+special.cite_English.1908.1910    0.076     0.082       0.650
+special.cite_English.1902.1904    0.096     0.088       0.715
+special.cite_English.1896.1898    0.077     0.079       0.746
+special.cite_English.1890.1892    0.065     0.067       0.834
+special.cite_English.1884.1886    0.058     0.059       0.785
+special.cite_English.1878.1880    0.050     0.052       0.830
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.413763e-08
+Post (1917-1932): 1.761961e-08
+Post/Pre Ratio: 1.246292 

@@ -1,0 +1,56 @@
+Synthetic Control Analysis for John C Calhoun
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+ William Graham Sumner 0.629331
+          William Penn 0.091080
+    Frederick Douglass 0.068108
+         James Madison 0.044204
+             Kropotkin 0.038793
+          Robert Burns 0.029311
+       Herbert Spencer 0.012860
+             de Gouges 0.012638
+            Lord Acton 0.009227
+               Malthus 0.008036
+      Thomas Jefferson 0.002301
+        Charles Darwin 0.001941
+                Hobbes 0.001919
+        Wollstonecraft 0.001846
+        Richard Cobden 0.001578
+          Henry George 0.001510
+    Alexander Hamilton 0.001487
+     Benjamin Franklin 0.001452
+   Ralph Waldo Emerson 0.001400
+        Thomas Carlyle 0.001361
+              Voltaire 0.001325
+           Tocqueville 0.001276
+          Edmund Burke 0.001097
+       Auberon Herbert 0.001086
+           John Ruskin 0.001069
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1851.000  1838.578    1467.825
+Socialist                         0.000     0.048       0.155
+Political                         1.000     0.949       0.577
+YearofTranslationtoEnglish     1851.000  1850.976    1793.474
+wrote_English                     1.000     0.967       0.505
+wrote_French                      0.000     0.020       0.144
+wrote_Greek                       0.000     0.004       0.113
+wrote_Latin                       0.000     0.003       0.082
+wrote_Italian                     0.000     0.001       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.005       0.113
+special.cite_English.1914.1916    0.155     0.158       0.669
+special.cite_English.1908.1910    0.200     0.199       0.911
+special.cite_English.1902.1904    0.221     0.221       1.005
+special.cite_English.1896.1898    0.243     0.238       1.043
+special.cite_English.1890.1892    0.194     0.206       1.169
+special.cite_English.1884.1886    0.223     0.215       1.113
+special.cite_English.1878.1880    0.166     0.178       1.185
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.587363e-08
+Post (1917-1932): 3.622772e-08
+Post/Pre Ratio: 0.7897285 

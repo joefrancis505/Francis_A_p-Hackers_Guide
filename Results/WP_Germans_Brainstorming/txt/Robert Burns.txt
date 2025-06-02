@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Robert Burns
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+ Hans Christian Andersen 0.385071
+            Izaak Walton 0.239184
+         Robert Browning 0.204129
+                 Thoreau 0.055469
+                  Dryden 0.050119
+          Charles Darwin 0.039897
+               Nietzsche 0.011892
+         Abraham Lincoln 0.009161
+         Otto Pfleiderer 0.001457
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1793.000  1792.000    1594.372
+Socialist                         0.000     0.001       0.138
+Political                         0.000     0.010       0.476
+YearofTranslationtoEnglish     1793.000  1793.206    1829.566
+wrote_English                     1.000     0.986       0.366
+wrote_French                      0.000     0.000       0.097
+wrote_Greek                       0.000     0.000       0.076
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.013       0.372
+special.cite_English.1914.1916    0.367     0.338       0.475
+special.cite_English.1908.1910    0.440     0.448       0.641
+special.cite_English.1902.1904    0.464     0.528       0.706
+special.cite_English.1896.1898    0.894     0.575       0.734
+special.cite_English.1890.1892    0.530     0.620       0.820
+special.cite_English.1884.1886    0.426     0.487       0.778
+special.cite_English.1878.1880    0.455     0.470       0.820
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.380036e-07
+Post (1917-1932): 1.100134e-07
+Post/Pre Ratio: 0.7971778 

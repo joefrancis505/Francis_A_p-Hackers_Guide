@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Rodbertus
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+ Ferdinand Lassalle 0.890019
+     Edward Bellamy 0.083541
+       Henry George 0.019806
+          Karl Marx 0.001187
+       August Bebel 0.001142
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1850.000  1864.203    1564.359
+Socialist                         1.000     0.996       0.097
+Political                         1.000     0.998       0.395
+YearofTranslationtoEnglish     1898.000  1883.933    1799.938
+wrote_English                     0.000     0.105       0.395
+wrote_French                      0.000     0.001       0.133
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      1.000     0.894       0.282
+special.cite_English.1914.1916    0.036     0.037       0.566
+special.cite_English.1908.1910    0.050     0.053       0.750
+special.cite_English.1902.1904    0.030     0.040       0.817
+special.cite_English.1896.1898    0.056     0.059       0.866
+special.cite_English.1890.1892    0.110     0.088       0.946
+special.cite_English.1884.1886    0.055     0.051       0.890
+special.cite_English.1878.1880    0.021     0.037       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 3.201213e-08
+Post (1917-1932): 1.925563e-08
+Post/Pre Ratio: 0.6015106 

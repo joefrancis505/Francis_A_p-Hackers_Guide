@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Proudhon
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+         Bakunin 0.435790
+ Charles Fourier 0.222991
+        Sismondi 0.201387
+         Blanqui 0.123220
+        Rousseau 0.007973
+           Plato 0.004315
+       Augustine 0.001376
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1840.000  1836.513    1591.077
+Socialist                         1.000     0.984       0.134
+Political                         1.000     0.997       0.465
+YearofTranslationtoEnglish     1890.000  1890.176    1828.880
+wrote_English                     0.000     0.001       0.366
+wrote_French                      1.000     0.992       0.092
+wrote_Greek                       0.000     0.004       0.077
+wrote_Latin                       0.000     0.002       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.001       0.380
+special.cite_English.1914.1916    0.118     0.110       0.484
+special.cite_English.1908.1910    0.198     0.134       0.652
+special.cite_English.1902.1904    0.131     0.145       0.720
+special.cite_English.1896.1898    0.223     0.161       0.750
+special.cite_English.1890.1892    0.195     0.203       0.837
+special.cite_English.1884.1886    0.224     0.182       0.791
+special.cite_English.1878.1880    0.159     0.267       0.837
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 6.927987e-08
+Post (1917-1932): 7.445756e-08
+Post/Pre Ratio: 1.074736 

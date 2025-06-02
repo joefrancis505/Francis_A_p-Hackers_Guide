@@ -1,0 +1,34 @@
+Synthetic Control Analysis for Sismondi
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+      Name   Weight
+   Bakunin 0.961933
+ Aristotle 0.023709
+    Kempis 0.013721
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1815.000  1823.203    1468.196
+Socialist                         1.000     0.962       0.144
+Political                         1.000     0.986       0.577
+YearofTranslationtoEnglish     1847.000  1870.508    1793.515
+wrote_English                     0.000     0.000       0.515
+wrote_French                      1.000     0.962       0.134
+wrote_Greek                       0.000     0.024       0.113
+wrote_Latin                       0.000     0.014       0.082
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.000       0.113
+special.cite_English.1914.1916    0.133     0.161       0.669
+special.cite_English.1908.1910    0.164     0.208       0.912
+special.cite_English.1902.1904    0.206     0.209       1.005
+special.cite_English.1896.1898    0.195     0.244       1.044
+special.cite_English.1890.1892    0.333     0.284       1.167
+special.cite_English.1884.1886    0.338     0.230       1.112
+special.cite_English.1878.1880    0.484     0.328       1.182
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.23874e-07
+Post (1917-1932): 2.167367e-07
+Post/Pre Ratio: 1.749654 

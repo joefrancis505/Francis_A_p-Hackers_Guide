@@ -1,0 +1,38 @@
+Synthetic Control Analysis for William Godwin
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+          Jonathan Swift 0.356791
+ James Fitzjames Stephen 0.294795
+          Wollstonecraft 0.167923
+   William Graham Sumner 0.108962
+                  Hobbes 0.053802
+            John Woolman 0.001612
+           David Ricardo 0.001253
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1793.000  1791.186    1594.372
+Socialist                         0.000     0.002       0.138
+Political                         1.000     0.995       0.469
+YearofTranslationtoEnglish     1793.000  1793.074    1829.566
+wrote_English                     1.000     0.994       0.366
+wrote_French                      0.000     0.001       0.097
+wrote_Greek                       0.000     0.001       0.076
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.004       0.372
+special.cite_English.1914.1916    0.058     0.051       0.477
+special.cite_English.1908.1910    0.067     0.079       0.643
+special.cite_English.1902.1904    0.063     0.068       0.709
+special.cite_English.1896.1898    0.055     0.079       0.740
+special.cite_English.1890.1892    0.071     0.091       0.823
+special.cite_English.1884.1886    0.147     0.121       0.779
+special.cite_English.1878.1880    0.121     0.103       0.822
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.791332e-08
+Post (1917-1932): 1.756395e-08
+Post/Pre Ratio: 0.6292318 

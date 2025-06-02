@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Goethe
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+      Name   Weight
+ Augustine 0.385785
+    Cicero 0.335073
+     Plato 0.252069
+  Voltaire 0.027064
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1808.000    93.286    1594.269
+Socialist                         0.000     0.000       0.138
+Political                         0.000     0.614       0.476
+YearofTranslationtoEnglish     1821.000  1840.217    1829.372
+wrote_English                     0.000     0.000       0.372
+wrote_French                      0.000     0.027       0.097
+wrote_Greek                       0.000     0.252       0.076
+wrote_Latin                       0.000     0.721       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.000       0.366
+special.cite_English.1914.1916    4.143     4.461       0.449
+special.cite_English.1908.1910    5.503     6.143       0.606
+special.cite_English.1902.1904    6.657     6.626       0.664
+special.cite_English.1896.1898    6.547     7.452       0.695
+special.cite_English.1890.1892    7.580     8.385       0.771
+special.cite_English.1884.1886    9.627     7.886       0.714
+special.cite_English.1878.1880    9.367     8.959       0.759
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.470127e-06
+Post (1917-1932): 1.620034e-06
+Post/Pre Ratio: 1.101969 

@@ -1,0 +1,43 @@
+Synthetic Control Analysis for Frederick Douglass
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+       Auberon Herbert 0.456132
+         David Ricardo 0.259436
+        Edward Bellamy 0.116734
+          Robert Burns 0.044219
+               Herbart 0.039136
+                Malory 0.038628
+ William Graham Sumner 0.016736
+         Joseph Lister 0.008644
+                Kelvin 0.004085
+               Pasteur 0.001918
+         Lujo Brentano 0.001758
+          John Woolman 0.001632
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1845.000  1841.278    1564.385
+Socialist                         0.000     0.119       0.103
+Political                         1.000     0.859       0.395
+YearofTranslationtoEnglish     1845.000  1846.614    1800.210
+wrote_English                     1.000     0.954       0.390
+wrote_French                      0.000     0.003       0.133
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.001       0.072
+wrote_Italian                     0.000     0.001       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.041       0.287
+special.cite_English.1914.1916    0.059     0.059       0.566
+special.cite_English.1908.1910    0.086     0.089       0.750
+special.cite_English.1902.1904    0.097     0.102       0.817
+special.cite_English.1896.1898    0.167     0.159       0.865
+special.cite_English.1890.1892    0.143     0.141       0.946
+special.cite_English.1884.1886    0.083     0.084       0.890
+special.cite_English.1878.1880    0.057     0.064       0.947
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.966612e-08
+Post (1917-1932): 1.732534e-08
+Post/Pre Ratio: 0.5840111 

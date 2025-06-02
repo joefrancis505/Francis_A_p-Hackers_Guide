@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Aristotle
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+           Plato 0.717169
+        Plutarch 0.116026
+ Abraham Lincoln 0.079327
+            Hume 0.026058
+       Augustine 0.024694
+          Goethe 0.021303
+          Cicero 0.015194
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              -322.000   -58.802    1608.959
+Socialist                         0.000     0.000       0.138
+Political                         1.000     0.954       0.469
+YearofTranslationtoEnglish     1600.000  1754.705    1830.897
+wrote_English                     0.000     0.105       0.372
+wrote_French                      0.000     0.000       0.097
+wrote_Greek                       1.000     0.833       0.069
+wrote_Latin                       0.000     0.040       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.021       0.372
+special.cite_English.1914.1916    3.977     4.008       0.450
+special.cite_English.1908.1910    5.900     5.742       0.603
+special.cite_English.1902.1904    6.537     6.428       0.664
+special.cite_English.1896.1898    6.903     6.955       0.693
+special.cite_English.1890.1892    8.727     8.804       0.764
+special.cite_English.1884.1886    7.753     7.751       0.727
+special.cite_English.1878.1880    7.710     7.715       0.770
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 6.967145e-07
+Post (1917-1932): 8.034196e-07
+Post/Pre Ratio: 1.153155 

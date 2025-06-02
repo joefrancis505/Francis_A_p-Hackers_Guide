@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Pliny the Younger
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+ Friedrich Heinrich Jacobi 0.372231
+            Grimmelshausen 0.300837
+                     Aesop 0.255089
+                   Aquinas 0.050369
+           Dante Alighieri 0.009336
+                   Leibniz 0.009247
+                 de Gouges 0.002799
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              -113.000  1122.080    1607.517
+Socialist                         0.000     0.000       0.138
+Political                         0.000     0.003       0.476
+YearofTranslationtoEnglish     1900.000  1832.652    1828.828
+wrote_English                     0.000     0.000       0.372
+wrote_French                      0.000     0.003       0.097
+wrote_Greek                       0.000     0.255       0.076
+wrote_Latin                       1.000     0.060       0.055
+wrote_Italian                     0.000     0.009       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.673       0.372
+special.cite_English.1914.1916    0.031     0.071       0.478
+special.cite_English.1908.1910    0.065     0.080       0.643
+special.cite_English.1902.1904    0.056     0.067       0.709
+special.cite_English.1896.1898    0.052     0.074       0.740
+special.cite_English.1890.1892    0.066     0.067       0.823
+special.cite_English.1884.1886    0.047     0.066       0.780
+special.cite_English.1878.1880    0.060     0.057       0.823
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.356351e-08
+Post (1917-1932): 7.179516e-08
+Post/Pre Ratio: 3.046879 

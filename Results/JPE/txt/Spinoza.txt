@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Spinoza
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+ William Harvey 0.406391
+     Lord Byron 0.297537
+           Hume 0.158233
+      Herodotus 0.124132
+    Thomas More 0.012288
+     Copernicus 0.001238
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1677.000  1449.275    1565.246
+Socialist                         0.000     0.000       0.103
+Political                         0.000     0.295       0.400
+YearofTranslationtoEnglish     1856.000  1847.259    1800.154
+wrote_English                     0.000     0.456       0.395
+wrote_French                      0.000     0.000       0.133
+wrote_Greek                       0.000     0.124       0.077
+wrote_Latin                       1.000     0.420       0.067
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.000       0.287
+special.cite_English.1914.1916    0.657     0.738       0.563
+special.cite_English.1908.1910    1.164     1.266       0.744
+special.cite_English.1902.1904    1.600     1.470       0.809
+special.cite_English.1896.1898    1.307     1.444       0.859
+special.cite_English.1890.1892    1.707     1.734       0.938
+special.cite_English.1884.1886    1.717     1.709       0.882
+special.cite_English.1878.1880    2.540     2.387       0.934
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.262005e-07
+Post (1917-1932): 3.399001e-07
+Post/Pre Ratio: 0.7975122 

@@ -1,0 +1,29 @@
+Synthetic Control Analysis for Robert Owen
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+  Lujo Brentano 0.506631
+   Henry George 0.198087
+ Edward Bellamy 0.151409
+    John Ruskin 0.074575
+       Sismondi 0.069219
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1813.000  1870.462    1861.882
+wrote_English                     1.000     0.931       0.353
+wrote_German                      0.000     0.000       0.353
+YearofTranslationtoEnglish     1813.000  1872.172    1884.529
+special.cite_English.1914.1916    0.165     0.166       0.121
+special.cite_English.1908.1910    0.240     0.194       0.155
+special.cite_English.1902.1904    0.183     0.194       0.151
+special.cite_English.1896.1898    0.176     0.208       0.160
+special.cite_English.1890.1892    0.293     0.257       0.182
+special.cite_English.1884.1886    0.178     0.197       0.153
+special.cite_English.1878.1880    0.140     0.129       0.125
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.969776e-08
+Post (1917-1932): 1.33655e-07
+Post/Pre Ratio: 2.238862 

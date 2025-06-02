@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Renan
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+          Name   Weight
+  Schopenhauer 0.313481
+   Machiavelli 0.295114
+ Joseph Lister 0.232365
+      Voltaire 0.158571
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1848.000  1727.938    1564.369
+Socialist                         0.000     0.000       0.103
+Political                         1.000     0.454       0.395
+YearofTranslationtoEnglish     1862.000  1814.926    1800.123
+wrote_English                     0.000     0.233       0.395
+wrote_French                      1.000     0.159       0.128
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.295       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.314       0.287
+special.cite_English.1914.1916    0.514     0.656       0.563
+special.cite_English.1908.1910    0.691     0.875       0.747
+special.cite_English.1902.1904    1.140     1.165       0.812
+special.cite_English.1896.1898    1.597     1.470       0.858
+special.cite_English.1890.1892    1.673     1.591       0.938
+special.cite_English.1884.1886    1.417     1.405       0.883
+special.cite_English.1878.1880    1.367     1.383       0.940
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.355914e-07
+Post (1917-1932): 3.653262e-07
+Post/Pre Ratio: 0.8386901 

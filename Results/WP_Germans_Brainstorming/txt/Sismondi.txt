@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Sismondi
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+        Blanqui 0.440067
+        Bastiat 0.312358
+        Bakunin 0.101644
+ Schleiermacher 0.071591
+        Spinoza 0.060207
+     Thucydides 0.007064
+         Goethe 0.006991
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1815.000  1832.534    1594.221
+Socialist                         1.000     0.542       0.131
+Political                         1.000     0.861       0.469
+YearofTranslationtoEnglish     1847.000  1910.504    1829.193
+wrote_English                     0.000     0.000       0.372
+wrote_French                      1.000     0.854       0.090
+wrote_Greek                       0.000     0.007       0.076
+wrote_Latin                       0.000     0.060       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.079       0.372
+special.cite_English.1914.1916    0.133     0.130       0.477
+special.cite_English.1908.1910    0.164     0.193       0.643
+special.cite_English.1902.1904    0.206     0.228       0.708
+special.cite_English.1896.1898    0.195     0.232       0.739
+special.cite_English.1890.1892    0.333     0.308       0.821
+special.cite_English.1884.1886    0.338     0.323       0.778
+special.cite_English.1878.1880    0.484     0.443       0.820
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 8.895097e-08
+Post (1917-1932): 1.29921e-07
+Post/Pre Ratio: 1.460591 

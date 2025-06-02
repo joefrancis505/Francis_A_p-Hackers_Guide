@@ -1,0 +1,45 @@
+Synthetic Control Analysis for Eduard von Hartmann
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+             Ludwig Büchner 0.527792
+              Hermann Lotze 0.211048
+                      Rilke 0.181144
+              Hermann Cohen 0.022132
+ Friedrich Carl von Savigny 0.012704
+             Franz Brentano 0.007272
+                Carl Stumpf 0.004122
+              Eduard Zeller 0.003663
+             E T A Hoffmann 0.003583
+            Theodor Fontane 0.002290
+  Friedrich Heinrich Jacobi 0.001895
+           Ludwig Feuerbach 0.001680
+                  Hölderlin 0.001498
+          Ferdinand Tönnies 0.001037
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1869.000  1864.050    1590.873
+Socialist                         0.000     0.003       0.141
+Political                         0.000     0.009       0.472
+YearofTranslationtoEnglish     1884.000  1884.448    1828.923
+wrote_English                     0.000     0.005       0.366
+wrote_French                      0.000     0.001       0.099
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.000       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.992       0.373
+special.cite_English.1914.1916    0.007     0.007       0.485
+special.cite_English.1908.1910    0.009     0.007       0.654
+special.cite_English.1902.1904    0.006     0.008       0.721
+special.cite_English.1896.1898    0.006     0.008       0.751
+special.cite_English.1890.1892    0.008     0.010       0.838
+special.cite_English.1884.1886    0.019     0.017       0.793
+special.cite_English.1878.1880    0.008     0.010       0.839
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.969301e-09
+Post (1917-1932): 1.121304e-08
+Post/Pre Ratio: 3.776324 

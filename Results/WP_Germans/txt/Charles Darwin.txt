@@ -1,0 +1,39 @@
+Synthetic Control Analysis for Charles Darwin
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                 Name   Weight
+      Otto Pfleiderer 0.593451
+ Percy Bysshe Shelley 0.223322
+           Lord Byron 0.077715
+      Abraham Lincoln 0.052912
+               Dryden 0.033623
+               Goethe 0.010243
+         Robert Burns 0.005483
+            Augustine 0.001082
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1859.000  1850.816    1590.944
+Socialist                         0.000     0.000       0.141
+Political                         0.000     0.054       0.472
+YearofTranslationtoEnglish     1859.000  1858.468    1829.099
+wrote_English                     1.000     0.988       0.359
+wrote_French                      0.000     0.000       0.099
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.001       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.011       0.380
+special.cite_English.1914.1916    0.297     0.287       0.483
+special.cite_English.1908.1910    0.558     0.430       0.650
+special.cite_English.1902.1904    0.354     0.422       0.718
+special.cite_English.1896.1898    0.430     0.426       0.748
+special.cite_English.1890.1892    0.427     0.447       0.835
+special.cite_English.1884.1886    0.523     0.468       0.789
+special.cite_English.1878.1880    0.331     0.498       0.836
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.203393e-07
+Post (1917-1932): 5.747533e-08
+Post/Pre Ratio: 0.4776108 
